@@ -1,0 +1,607 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Loyalty and conformity asserted, in two parts the first preached the seventh of August, 1681 ... : the second preached the sixteenth of October, 1681 ... / by Jos. Pleydell ...</title>
+            <author>Pleydell, Josiah, d. 1707.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 88 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A55142</idno>
+            <idno type="STC">Wing P2568</idno>
+            <idno type="STC">ESTC R17033</idno>
+            <idno type="EEBO-CITATION">11931249</idno>
+            <idno type="OCLC">ocm 11931249</idno>
+            <idno type="VID">51135</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A55142)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 51135)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 819:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Loyalty and conformity asserted, in two parts the first preached the seventh of August, 1681 ... : the second preached the sixteenth of October, 1681 ... / by Jos. Pleydell ...</title>
+                  <author>Pleydell, Josiah, d. 1707.</author>
+               </titleStmt>
+               <extent>[4], 40 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Joanna Brome ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Duke University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of England --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:51135:1"/>
+            <pb facs="tcp:51135:1"/>
+            <p>LOYALTY AND CONFORMITY Aſſerted; IN TWO SERMONS, THE FIRST Preached the Seventh of <hi>Auguſt,</hi> 1681. in the Abby Church of <hi>Bath.</hi>
+            </p>
+            <p>THE SECOND Preached the Sixteenth of <hi>October,</hi> 1681. at <hi>Badminton.</hi>
+            </p>
+            <p>By <hi>Joſ. Pleydell</hi> Arch-Deacon of <hi>Chicheſter.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Joanna Brome,</hi> at the Gun at the Weſt-End of St. <hi>Paul</hi>'s. 1682.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:51135:2"/>
+            <pb facs="tcp:51135:2" rendition="simple:additions"/>
+            <head>To the moſt Honourable <hi>Henry</hi> Lord Marqueſs of <hi>Wor<g ref="char:EOLhyphen"/>ceſter,</hi> &amp;c.</head>
+            <opener>
+               <salute>My Lord,</salute>
+            </opener>
+            <p>FOr the ſame Reaſon others uſu<g ref="char:EOLhyphen"/>ally pretend in chooſing the Pa<g ref="char:EOLhyphen"/>tronage of Great Men, I ſhould induſtriouſly decline your Lordſhips a<g ref="char:EOLhyphen"/>bove all Mens, I know; <hi>viz.</hi> For thoſe Extraordinary Abilities, and great Judgment your Lordſhip's Maſter of. I ſhould never be able to excuſe to my ſelf the Vanity and Preſumption of this Addreſs to a perſon of far infe<g ref="char:EOLhyphen"/>riour Characters to your Lordſhip, had you not firſt diſcovered your in<g ref="char:EOLhyphen"/>clinations to Accept it: Then it be<g ref="char:EOLhyphen"/>came my Duty. I muſt confeſs, I never did value my ſelf upon any thing ſo
+<pb facs="tcp:51135:3"/>
+much, as your Lordſhips favourable Eſtimation; and ſhould do it more, if I thought the performance might anſwer or deſerve it. If in doing my ſelf this Honour, I have not diſſerv'd the cauſe therein Aſſerted; nor your Lordſhip ſink by it, in the Venerati<g ref="char:EOLhyphen"/>on all Men had before of your exact judgment; I have exceeded my own hopes.</p>
+            <closer>
+               <salute>My Lord,</salute>
+               <signed>I am your Lordſhips moſt humble and moſt obedient Servant. Joſ. Pleydell.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="sermon">
+            <pb n="1" facs="tcp:51135:3"/>
+            <head>LOYALTY &amp; CONFORMITY Aſſerted; IN A SERMON ON
+<q>
+                  <bibl>
+                     <hi>Romans 13.4.</hi>
+                  </bibl>
+                  <p>For he beareth not the Sword in vain.</p>
+               </q>
+            </head>
+            <p>
+               <hi>LET every Soul be ſubject to the higher Powers,</hi> verſe 1. ſaith this.</p>
+            <p>
+               <hi>Submit your ſelves to every Ordinance of Man,</hi> ſaith another Apoſtle, 1 <hi>Pet.</hi> 2.13.</p>
+            <p>Here's a couple of <hi>Tory Biſhops</hi> for ye! Baſe Sy<g ref="char:EOLhyphen"/>cophants and Court Flatterers, who for fear, or for hope, would go to fill a Princes head, with Ambiti<g ref="char:EOLhyphen"/>ous and Arbitrary Principles! Sneaking low Spirits, that would ſay any thing to ſave their Necks, and reſpit the Princes fury! Or poor Wretches peradven<g ref="char:EOLhyphen"/>ture, whoſe Lot placed them in ſuch ill Circumſtan<g ref="char:EOLhyphen"/>ces! How were they feign to <hi>Preach</hi> in compliance with the times, and talk according to the Infant-ſtate of the <hi>Churches Minority!</hi> Surely had they liv'd in thoſe more glorious times of Liberty that happened in this Inquiſitive and Learned Age, they would have <hi>Preached</hi> at another <hi>Rate.</hi>
+            </p>
+            <p>
+               <pb n="2" facs="tcp:51135:4"/>I believe they might; had they writ their Epiſtles with the ſame ſpirit, wherewith the <hi>Modern Catho<g ref="char:EOLhyphen"/>licks</hi> writ, that we reformed from; or the <hi>more Mo<g ref="char:EOLhyphen"/>dern Proteſtants,</hi> that have <hi>reformed</hi> from us.</p>
+            <p>But ſeriouſly, Sirs; <hi>theſe men</hi> Preached a great Truth, and meant it in the plain <hi>ſence</hi> they ſpoke it, without any Equivocation about the Powers; or Re<g ref="char:EOLhyphen"/>ſervation as to the time and opportunity:</p>
+            <p>And this they did not to <hi>humor</hi> the times, but to <hi>inform</hi> our Conſciences, and <hi>diſcharge</hi> their own.</p>
+            <p>Ev<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n for Conſcience ſake, <hi>ſaith one:</hi> And for the Lords ſake, <hi>ſaith the other.</hi> The caſe of Subjection and Obedience is ſo trite a Theme, not only in the worſt ſence, that grieves me old and ſlighted, but in a better ſence, I fancy pinches them, <hi>viz.</hi> There has been ſaid ſo much, and ſo well upon that Sub<g ref="char:EOLhyphen"/>ject by the <hi>Church of England men,</hi> that they ne<g ref="char:EOLhyphen"/>ver could, nor never will tell how to <hi>anſwer.</hi>
+            </p>
+            <p>And if upon the former accompt, it be more need<g ref="char:EOLhyphen"/>full to be urged and inculcated: upon the latter I think it leſs, till it be better anſwered than by noiſe and force.</p>
+            <p>But I decline it for another reaſon, <hi>viz.</hi> the ineffe<g ref="char:EOLhyphen"/>ctiveneſs of this ſort of menaging theſe men: who a<g ref="char:EOLhyphen"/>bound with the qualities of thoſe <hi>good natured Chil<g ref="char:EOLhyphen"/>dren,</hi> that do more for a <hi>blow</hi> than a <hi>word.</hi>
+            </p>
+            <p>A <hi>Generation</hi> that grow <hi>Obdurate</hi> by <hi>Convictions, Inſolent</hi> by <hi>Kindneſs,</hi> and whom nothing but the Ex<g ref="char:EOLhyphen"/>ecution of the Penal Laws could ever keep within <hi>their duty.</hi> Indeed Lenity and Kindneſs are the beſt expedients, where they will obtain: but not with <hi>ſuch Cattle</hi> the <hi>Pſalmiſt</hi> ſpeaks of in <hi>Pſalm</hi> 59. that are always barking at their <hi>Superiors,</hi> and grudging they are not ſatisfied.</p>
+            <p>
+               <pb n="3" facs="tcp:51135:4"/>This is no doubt moſt agreeable to the Prince, for beſides, that a man muſt ſink below humane Na<g ref="char:EOLhyphen"/>ture, that can delight in <hi>oppreſſion</hi> and <hi>blood;</hi> and muſt be a <hi>Devil</hi> that makes <hi>Innocence</hi> and <hi>Obedience</hi> the Ground on't. It makes his <hi>Government</hi> the more <hi>ſecure</hi> and <hi>eaſie,</hi> by freeing at once them of their <hi>hatred,</hi> and him of his <hi>fear.</hi> I! if it meet with <hi>Loyalty</hi> and <hi>Obedience</hi> in the governed, 'tis a moſt happy <hi>Conjunction.</hi> But to forgive <hi>men</hi> that have <hi>Rebelled once,</hi> and to ſtand ſtill, and let them do it a <hi>ſecond time,</hi> is an odd way of ſecuring the <hi>Govern<g ref="char:EOLhyphen"/>ment</hi> in the opinion of all that love it.</p>
+            <p>I would be glad the experience of <hi>theſe mens</hi> for<g ref="char:EOLhyphen"/>mer Errours, had made them <hi>change</hi> their Principles; and that we might have but a juſt occaſion to com<g ref="char:EOLhyphen"/>mend the Modeſty and Ingenuity of the men of that way.</p>
+            <p>That their whole <hi>Character</hi> in the Sermon were a lye and the deſign of it needleſs. That they would <hi>poſt merit</hi> the former act by their <hi>Repentance</hi> and by their amendment ſtand in <hi>no need</hi> of another.</p>
+            <p>This, This, is the method the <hi>Apoſtle</hi> does pre<g ref="char:EOLhyphen"/>ſcribe to divert the Princes <hi>Anger, verſe</hi> 3. Wilt thou then not be afraid of the <hi>Power,</hi> do that which is <hi>Good.</hi>
+            </p>
+            <p>The way to avoid the ſeverity of their diſpleaſure, is to live in obedience to their Laws. <hi>And thou ſhalt have praiſe of the ſame.</hi> The end of that verſe.</p>
+            <p>And thoſe whom the Conſcience of Religion and the Love of their Prince, cannot <hi>make ſo, Fear and the Penal Sanctions</hi> of the Law muſt be tryed with, <hi>verſe</hi> 4. <hi>If thou do that which is evil be afraid.</hi>
+            </p>
+            <p>
+               <pb n="4" facs="tcp:51135:5"/>And as 'tis their fault, they don't do <hi>their duty;</hi> ſo 'tis the Princes, if he does not <hi>puniſh them</hi> in neg<g ref="char:EOLhyphen"/>lecting Gods Truſt and his own Right; <hi>for he beareth not the Sword in vain. Two things</hi> I have propounded to diſcourſe to you from the words I have choſen.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> The <hi>Power</hi> and <hi>Authority</hi> of the <hi>Civil Magiſtrate;</hi> particularly in reference to the puniſhing of <hi>Offenders;</hi> 
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> and, His Duty and Office, in the Regular diſcharge of that Truſt, and due <hi>Improvement</hi> of that Power.</p>
+            <p>Without the former, all Government would be no<g ref="char:EOLhyphen"/>thing but <hi>Violence</hi> and <hi>
+                  <g ref="char:V">Ʋ</g>ſurpation;</hi> and without the latter, <hi>Vain</hi> and <hi>Ridiculous.</hi>
+            </p>
+            <list>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/>
+                  <hi>The Riſe and Origine.</hi>
+               </item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/>
+                  <hi>The Expedience and Neceſſity.</hi> And</item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/>
+                  <hi>The Extent and Latitude of this Power.</hi>
+               </item>
+            </list>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> In the <hi>firſt</hi> Place therefore, as to its <hi>Riſe</hi> and <hi>Origine;</hi> for as in <hi>Science,</hi> that is the beſt way of Demon<g ref="char:EOLhyphen"/>ſtrating the Effects by the Cauſe; or, as in <hi>Nature</hi> all the perfections of a Plant are contained in its Seminal Principles, in like manner, if we can but diſcover and fix upon the firſt cauſe of the <hi>Magiſtrates Power,</hi> we ſhall be eaſie able to trace it down to all the branches.</p>
+            <p>Settle but this <hi>Foundation,</hi> and we need not fear all that ſtately Structure will remain ſecure againſt the Aſſaults and Batteries of the <hi>Plebeians,</hi> and <hi>Hob<g ref="char:EOLhyphen"/>biſts;</hi> both of which proceed upon one and the ſame <hi>Anarchical</hi> Principle, making the <hi>People</hi> the Fountain of all <hi>Power.</hi>
+            </p>
+            <p>
+               <q>In contradiction to both, <hi>I do</hi> aſſert, That all Do<g ref="char:EOLhyphen"/>minion and Sovereignty is Original in <hi>God:</hi> to whom our Subjection is the <hi>Reſult</hi> of our Being; and from which it does immediately, and inſepa<g ref="char:EOLhyphen"/>rably
+<pb n="5" facs="tcp:51135:5"/>
+ariſe: which cannot be ſaid of any earthly Po<g ref="char:EOLhyphen"/>tentate whatſoever; to whom notwithſtanding their reſpective Subjects owe a Natural &amp; Inviolable <hi>Alle<g ref="char:EOLhyphen"/>giance;</hi> Yet it is not the Immediate Conſequence of our Being, which were to aſſign them a Supremacy equal to Heaven, and Independing upon God himſelf.</q>
+            </p>
+            <p>All <hi>Pretentions</hi> therefore of <hi>Superiority</hi> and <hi>Dominion</hi> muſt plead their <hi>derivation</hi> from him: or elſe they mani<g ref="char:EOLhyphen"/>fectly intrude upon his <hi>Prerogative,</hi> and Uſurp his <hi>Throne;</hi> And this is plainly aſſerted in the firſt verſe of this Chapter, <hi>every power,</hi> ſaith the Apoſtle, <hi>i. e.</hi> which is <hi>rightly ordained and Conſtituted</hi> (for that's the diffe<g ref="char:EOLhyphen"/>rence between <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.) <hi>is of God</hi> nor is it in<g ref="char:EOLhyphen"/>validated by St. <hi>Peter</hi> calling it <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> a hu<g ref="char:EOLhyphen"/>mane Ordinance ſo called, either to denote the Laws <milestone type="tcpmilestone" unit="unspecified" n="1"/> and Ordinances by them made: or to determine it <milestone type="tcpmilestone" unit="unspecified" n="2"/> expreſly and particularly to the <hi>heathen Magiſtrate,</hi> as Dr. <hi>Hammond</hi> has noted upon the Eighth Chapter <hi>to the Romans.</hi> Or elſe it belongs only to the particular <milestone type="tcpmilestone" unit="unspecified" n="3"/> form of Adminiſtration of Government, which no body Contends for their <hi>Divine Right.</hi> Though the <hi>Mo<g ref="char:EOLhyphen"/>narchical</hi> bid thus far towards it, to the intimation of Nature, and Example of God. Nor is this any <hi>Dimi<g ref="char:EOLhyphen"/>nution</hi> of the Magiſtrates Authority to make it thus <hi>deri<g ref="char:EOLhyphen"/>vative,</hi> but rather its <hi>ſecurity.</hi> For by this reaſon, no ſoo<g ref="char:EOLhyphen"/>ner ſhall God intimate, and diſcover ſuch <hi>delegation</hi> of any part of his Power and Sovereignty over us, to them<g ref="char:punc">▪</g> but we become <hi>Subject</hi> upon the account of <hi>Re<g ref="char:EOLhyphen"/>ligion, i. e.</hi> All our Obedience to the Civil Magiſtrate is a part of our duty, and but a mediate Expreſſion of our <hi>Homage</hi> and <hi>Allegiance to God himſelf.</hi> Now the wayes by which God is pleaſed to ſignifie this delegati<g ref="char:EOLhyphen"/>on of his Power are either by the Light of Nature, as <milestone type="tcpmilestone" unit="unspecified" n="1"/> that Children ſhould <hi>Obey their Parents:</hi> or <hi>by Revela<g ref="char:EOLhyphen"/>tion,</hi>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/>
+               <pb n="6" facs="tcp:51135:6"/>
+as in the Founding of the <hi>Kingdomes</hi> of <hi>Iſrael</hi> and <milestone type="tcpmilestone" unit="unspecified" n="3"/>
+               <hi>Judah:</hi> or <hi>by his Ordinary Providence,</hi> in directing the Civil Adminiſtrations of the World. <q>For now know I, and am as determinable hereby that I ought to obey <hi>this perſon</hi> who is thus Regularly Conſtituted accor<g ref="char:EOLhyphen"/>ding to the <hi>Municipal</hi> Laws of this Land; as if he were <hi>miraculouſly advanced thereto,</hi> or <hi>immediately reveal'd</hi> to be ſo. Which account of Government is the moſt <hi>Sacred</hi> and <hi>Inviolable</hi> that can be.</q>
+            </p>
+            <p>If you pleaſe now, let us Examine the other <hi>Hypo<g ref="char:EOLhyphen"/>theſis,</hi> according to <hi>Mr. Hobs</hi>'s Principle.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> And Firſt, What ground has he to lay that <hi>wild,</hi> and <hi>extravagant</hi> ſuppoſition of his <hi>ſtate of Nature;</hi> to avoid which inconveniency Men entred into Society and Government? Admitting God had made a very <hi>great number of perſons,</hi> at firſt, this might have given ſome <hi>Colour</hi> to ſuch a fancy: But we are aſſur'd the <hi>Creation</hi> was begun in <hi>a ſingle perſon,</hi> and afterwards to be pro<g ref="char:EOLhyphen"/>pagated in ſuch a way, that all Men in the World, muſt neceſſarily <hi>be born</hi> in ſome ſubjection <hi>antecedent</hi> to their <hi>conſent</hi> and <hi>choice.</hi>
+            </p>
+            <p>Beſides, what unworthy Conceptions muſt we have of the <hi>divine Goodneſs,</hi> in making it the Author of ſuch a Nature by which every Man was endued with ſuch Rights and Principles, to miſchief and hurt every bo<g ref="char:EOLhyphen"/>dy elſe:</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> This <hi>State Hereſie</hi> makes Princes very <hi>unſecure;</hi> For beſides the debaſing their Authority, for they're indebted to their Subjects for their Power, and beholding to them for their Crownes; it does alſo leave their Subjects (and that's the uſe they make of this Doctrine) aright of Recovering their <hi>Liberty</hi> when they are <hi>able,</hi> and <hi>Rebelling</hi> when ever they can have a fit opportunity.</p>
+            <p>For it <hi>Self Love</hi> and <hi>Preſervation,</hi> be the ground and
+<pb n="7" facs="tcp:51135:6"/>
+meaſure of my parting with my <hi>Liberty,</hi> then when theſe require, or no longer bind, my <hi>Compact's</hi> void, and my Grant <hi>retracted.</hi> 'Tis true, the due ſtateing of ſelfe Love and Preſervation would ſomewhat mend the matter.</p>
+            <p>For I doubt not to ſay that ſo underſtood, it may be as good a Rule and Meaſure of my Actions as any whatever: but if we extend it no farther than Life and Members, <hi>Princes have a very ill bargain on't,</hi> for their Subjects may Lawfully Rebel when <hi>they can.</hi>
+            </p>
+            <p>And for this Cauſe his writings deſerve to be <hi>burnt</hi> by the hand of the <hi>Common-hangman:</hi> for if his <hi>Leviathan</hi> can but make men <hi>Atheiſts,</hi> his Principles of Government, will juſtifie and <hi>authorize</hi> if not make 'em <hi>Rebels. Rebellion!</hi> there can be no ſuch thing, there may be want of Succeſs, which men may be hang'd for, like <hi>Lacedemonian Theft!</hi> No! but if he prove a <hi>Tyrant,</hi> and by <hi>Mal-adminiſtration</hi> forfeit the truſt we <hi>repos'd</hi> in him, this may alter the caſe. It may! In whoſe <hi>Opinion?</hi> in the <hi>Opinion</hi> of <hi>Mariana</hi> or <hi>Knox, Hobbs,</hi> or <hi>Bradſhaw: i. e.</hi> In the Judgment of <hi>Papiſts, Sectaries, Atheiſts,</hi> and <hi>Re<g ref="char:EOLhyphen"/>bells;</hi> and then alſo they muſt judge of the Fact too: (and we know what Juſtice to expect from ſuch, as Judge of <hi>Law</hi> and <hi>Fact</hi> both) will you believe your Eyes inſtead of other <hi>Arguments?</hi> look back but to <hi>Forty eight,</hi> and you ſee the beſt <hi>King</hi> in the World Murthered by this very <hi>Engine.</hi>
+            </p>
+            <p>Whereas the accompt <hi>I gave of it,</hi> and which is agree<g ref="char:EOLhyphen"/>able to <hi>Scripture,</hi> and the <hi>Church of England,</hi> viz. that all obedience is due <hi>to God,</hi> a part whereof, <hi>God</hi> has required us to pay <hi>unto them</hi> in his <hi>name:</hi> So that our obedience is not properly unto <hi>them</hi> but unto <hi>God;</hi> as it does ad<g ref="char:EOLhyphen"/>vance <hi>their</hi> Authoriey next <hi>to his,</hi> ſo it renders it as <hi>ſa<g ref="char:EOLhyphen"/>cred,</hi> as <hi>that</hi> to <hi>himſelf,</hi> and this is what we are taught in the <hi>Collect</hi> after the <hi>Decalogue,</hi> where we are told that
+<pb n="8" facs="tcp:51135:7"/>
+the <hi>King is Gods Miniſter,</hi> and has his Authority (the other makes him the <hi>Peoples Tool</hi>) and that therefore we ought to obey him <hi>in God,</hi> and <hi>for God.</hi>
+            </p>
+            <p>By which means they are ſo ſecured, though not in an unlimited Obedience, (which is another <hi>Malmsbury Chimoera</hi>) yet from any manner of <hi>Reſiſtance,</hi> that 'tis impoſſible there ſhould be a <hi>Rebellion,</hi> while the <hi>Prin<g ref="char:EOLhyphen"/>ciples</hi> of the <hi>Church of England</hi> are <hi>Rever'd</hi> and <hi>Owned:</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Let us in the ſecond place conſider the Reaſon and Expediency of the thing, that there ſhould be ſuch a Power and Government. There is a plain and <hi>Abſo<g ref="char:EOLhyphen"/>lute</hi> neceſſity of it, without which, there would ſoon follow, <hi>what he</hi> has falſly made <hi>Precedent</hi> to Govern<g ref="char:EOLhyphen"/>ment. <hi>A ſtate of nature,</hi> or <hi>
+                  <g ref="char:V">Ʋ</g>niverſal Hoſtility</hi> by which he underſtands an Original Right innate to us, whereby we were inclined and authorized, to do as much Miſchief and Villany <hi>as we can.</hi>
+            </p>
+            <p>If we would fancy a ſtate of Nature preceding to Government, we ought with more reaſon to ſuppoſe ſome <hi>Golden</hi> Age, wherein all men lived peaceably one with another, without doing wrong or injury to each other.</p>
+            <p>If ſuch a ſtate had been, there would have been no need of Government as to the uſe of the <hi>Sword.</hi>
+            </p>
+            <p>For order there muſt have <hi>been,</hi> and ſome kind of Superiority and Subordination. But now in this ſtate of Corruption, wherein men not by any Natural Right, as he hath <hi>falſly imagined,</hi> but by a vicious and inordi<g ref="char:EOLhyphen"/>nate Licentiouſneſs are become ſo prone, and apt to do all thoſe violences, to which an unbridled Luſt would lead them if there were no power <hi>antecedaneous to this ſtate</hi> (which muſt neceſſarily accuſe Providence, and deſtroy the eſſential difference between <hi>Good and Emil</hi>) it would undeniably follow; that men would be
+<pb n="9" facs="tcp:51135:7"/>
+neceſſitated to enter into Societies to ſecure and pre<g ref="char:EOLhyphen"/>ſerve themſelves. But for which <hi>Atheiſts</hi> and <hi>Villains</hi> would live under the obedience of no other Laws and Rules but their <hi>own Wills and Luſts:</hi> and the effects of want of Government would light moſt ſevere upon <hi>Good</hi> and <hi>Vertuous Perſons.</hi> For if I am tyed up by the <hi>aw</hi> of an <hi>inviſible Power</hi> from doing wrong to any body, and every one that liſts may do me what wrong they pleaſe, which would be the <hi>caſe</hi> of every good man, in reſpect of every evil man, under ſuch an Univerſal <hi>Anarchy;</hi> I ſay my condition muſt needs be very mi<g ref="char:EOLhyphen"/>ſerable; for which reaſon, it no leſs concerns wicked men alſo in reſpect of themſelves to be ſecur'd from each other.</p>
+            <p>And this is one ſpecial <hi>Inſtance</hi> of Providence, whereby it Rules the <hi>Beaſts of the People</hi> (as one Tran<g ref="char:EOLhyphen"/>ſlation of the <hi>Pſalms</hi> calls them) ſuch, that is, as are not <hi>awed,</hi> by the ſence of an <hi>inviſible Power,</hi> that re<g ref="char:EOLhyphen"/>gard no <hi>inward Ties</hi> and Obligations of Conſcience, but are acted and ſwayed like <hi>Bruits</hi> by the impreſſions of ſenſual Objects: but the ſtrongeſt Hold that Govern<g ref="char:EOLhyphen"/>ment has of us, is by thoſe ſecret and inviſible tyes, by which it bounds upon our Conſciences; for when all the other Reſpects and Conveniencies of Govern<g ref="char:EOLhyphen"/>ment fail, <hi>this cannot.</hi>
+            </p>
+            <p>It may be my advantage, and I may have an op<g ref="char:EOLhyphen"/>portunity to <hi>Rebel;</hi> what ſhould hinder me? <hi>The Pub<g ref="char:EOLhyphen"/>lick Good!</hi> That's no Rule of my <hi>Practice,</hi> for in that reſpect, what he ſaid of any Peace, we may ſay of any Government, be it the moſt Tyrannical upon the Earth, it is a far leſs <hi>evil</hi> than <hi>Anarchy.</hi> 
+               <q>
+                  <hi>But now</hi> take in the <hi>ſence of my Duty and Obedience to God,</hi> that will do it <hi>effectually:</hi> If I make Conſcience of being ſubject as I ought, from which no circum<g ref="char:EOLhyphen"/>ſtances
+<pb n="10" facs="tcp:51135:8"/>
+of our Condition, or any accidents or occurren<g ref="char:EOLhyphen"/>ces whatſoever can diſſolve us ſo far as to reſiſt, <hi>i. e.</hi> un<g ref="char:EOLhyphen"/>leſs, (which we are aſſured he never will) God himſelf ſhould revoke his <hi>Grant,</hi> and alter the <hi>Princes Patent.</hi>
+               </q>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> There remains one thing more for the eſtabliſhing of the Civill Magiſtrates authority, and that is to conſider the Extent and Latitude of this power where<g ref="char:EOLhyphen"/>with God hath Inveſted them.<note place="margin">Biſhop <hi>Taylor</hi>'s Ductor Dubitant lib. 3. ch. 3. Rule 1.</note> And we muſt diſtin<g ref="char:EOLhyphen"/>guiſh between <hi>Poteſtas Imperantis licita</hi> and <hi>legitima,</hi> what a Prince may Lawfully, <hi>i. e. Warrantably</hi> do, and what he may do <hi>Legitimately,</hi> i. e. <hi>
+                  <g ref="char:V">Ʋ</g>naccomptably</hi> to any but <hi>Almighty God. In the Conjunction of both theſe conſiſts the whole of their Supremacy.</hi>
+            </p>
+            <p>In the ſtateing whereof, my Deſign is not to ſet bounds and limits to the Exerciſe, and Adminiſtration of their Power, but to remove thoſe reſtrictions and encroachments the Enemies of the King and the Church have made upon it. <hi>The Church of England,</hi> gives unto all Sovereign Princes the Supremacy, in their reſpective Dominions, as well over <hi>Spiritual,</hi> as <hi>Temporal</hi> Perſons; and in <hi>Sacred</hi> as well as <hi>Civil</hi> Cauſes: which we ac<g ref="char:EOLhyphen"/>count, not as an Act <hi>of Grace,</hi> or any baſe flattering of Authority, or fawning upon the Crown; but 'tis the expreſſion of a <hi>juſt Debt,</hi> and <hi>a bare Recognition</hi> of what is their undoubted Right, giving them neither <hi>more nor leſs</hi> than what they always <hi>did enjoy,</hi> except where the <hi>Popiſh <g ref="char:V">Ʋ</g>ſurpation,</hi> or the <hi>Presbyterian Reformation</hi> have invaded it.</p>
+            <p>But moſt fierce Oppoſition hath this Doctrine met with, from the <hi>Bigots</hi> of both thoſe Parties the <hi>Guelphes</hi> and the <hi>Gibellines,</hi> from <hi>Rome,</hi> and from <hi>Scotland;</hi> from St. <hi>Peter</hi> and St. <hi>Andrew,</hi> the <hi>Papiſt</hi> and the <hi>Presbyteri<g ref="char:EOLhyphen"/>an;</hi> who have hardly left any branch of their Suprema<g ref="char:EOLhyphen"/>cy <hi>unaſſaulted</hi> and <hi>unqueſtioned,</hi> but either by <hi>Rebellious</hi>
+               <pb n="11" facs="tcp:51135:8"/>
+and <hi>Traiterous</hi> practices, or by Monſtrous and <hi>Damna<g ref="char:EOLhyphen"/>ble Poſitions,</hi> have endeavoured to rend it from the Crown.</p>
+            <p>It has not ſcap'd quite in temporals, For how is he Su<g ref="char:EOLhyphen"/>pream if he be <hi>Minor <g ref="char:V">Ʋ</g>niverſis,</hi> if he may be reſiſted in the <hi>Tyrannical</hi> and <hi>Exorbitant</hi> uſe of his Power, if he may be Depos'd, Murdered? which we may reckon under the Apoſtles <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> ſtrange and monſtrous Doctrines,<note place="margin">13 <hi>Heb.</hi> 9. 1 <hi>Tim.</hi> 4.1.</note> or rather under his <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Doctrines</hi> of <hi>Devils.</hi> Though I know the Learned <hi>Mede</hi> has another Notion of that place.</p>
+            <p>But eſpecially they quarrel about the <hi>Poteſtas licita in Eccleſiaſticis;</hi> which the <hi>Romiſh</hi> Party and their Ad<g ref="char:EOLhyphen"/>herents will by no means endure, either in reference to <hi>Perſons,</hi> or <hi>Things,</hi> but ſubject them to their <hi>De<g ref="char:EOLhyphen"/>crees</hi> and <hi>Eccleſiaſtical Conſtitutions:</hi> nay, they are not only bound to a <hi>Perſonal,</hi> but to a kind of <hi>Politick</hi> O<g ref="char:EOLhyphen"/>bedience, <hi>i. e.</hi> To enjoyn Obedience thereto from their <hi>Subjects,</hi> and puniſh ſuch as refuſe, or elſe they muſt be <hi>Excommunicated,</hi> and their <hi>Subjects abſolv'd.</hi>
+            </p>
+            <p>Concerning which, I ſhall only ſay (in the Words of a <hi>very Reverend Prelate</hi>) Kings and Princes are ty'd to obey the Laws of the Church, by <hi>Religion,</hi> but not by <hi>Power</hi> or <hi>Church-Cenſures;</hi> and that is only in things which concern their eſſential Duty, and not in the contingent External and Political Concerns of Religi<g ref="char:EOLhyphen"/>on, which their Aſſent alone can paſs into a Law.</p>
+            <p>So likewiſe for the <hi>Presbyterians;</hi> for they are like <hi>Samſon</hi>'s <hi>Foxes,</hi> their Faces are contrary to each other, but they are ty'd faſt together in the ſame miſcheivous Deſign, of putting the Church and Kingdom into <hi>Com<g ref="char:EOLhyphen"/>buſtion</hi> and a <hi>Flame.</hi>
+            </p>
+            <p>Nor is it poſſible to find any Difference between
+<pb n="12" facs="tcp:51135:9"/>
+them herein, but <hi>Pope</hi> for <hi>Synod,</hi> and <hi>Synod</hi> for <hi>Pope;</hi> They take upon them to <hi>appoint Faſts, indict Synods, decree Conſtitutions,</hi> without and againſt <hi>Royal Aſsent;</hi> and what they do of this kind, he ſhall be concluded under too, as well in his <hi>Politick,</hi> as <hi>Perſonal</hi> Capa<g ref="char:EOLhyphen"/>city.</p>
+            <p>For that's the Meaning of his being <hi>Cuſtos utriuſque Tabulae,</hi> he muſt ſee that all his Subjects, in their ſeveral Orders obey and conform to their Injunctions; and if he do's not, he muſt be <hi>Admoniſhed, Excom<g ref="char:EOLhyphen"/>municated, Depos'd.</hi>
+            </p>
+            <p>The thing is <hi>too Notorious</hi> to Inſtance in paſſages of this kind in the many Writers of either ſide.</p>
+            <p>
+               <q>Betwixt both theſe, I fancy <hi>Monarchy,</hi> like St. <hi>Peter,</hi> 12 <hi>Acts</hi> 6. lying bound between two Soul<g ref="char:EOLhyphen"/>diers, ready to be executed; and were it not that the Conſtant and Steady Loyalty of the Church of <hi>En<g ref="char:EOLhyphen"/>land</hi>-Men (like the Guardian-Angel there mention<g ref="char:EOLhyphen"/>ed) did from time to time reſcue and preſerve it, you would ſoon ſee Monarchy in its Grave: And therefore I admire at their Wiſdom that could tell a Reaſon why the <hi>Proſecutors of one Side,</hi> ſhould be the <hi>Saviours and Deliverers of our Nation,</hi> and <hi>thoſe of the other</hi> the <hi>Grievance.</hi>
+               </q>
+            </p>
+            <p>
+               <q>If Rebellious <hi>Principles</hi> and Practices be the ground of their <hi>Zeal,</hi> and the reaſon of their proſecuting men; wherein do's the adding of <hi>Presbyterian</hi> qua<g ref="char:EOLhyphen"/>lifie either; unleſs <hi>Number</hi> and <hi>Intereſt</hi> make an Ene<g ref="char:EOLhyphen"/>my leſs dangerous?</q> I confeſs theſe things are a My<g ref="char:EOLhyphen"/>ſtery to me, unleſs the Reaſon be contained in the <hi>Py<g ref="char:EOLhyphen"/>rates</hi> Anſwer to <hi>Alexander.</hi> But to return from whence we have digreſs'd, namely, the <hi>Kings Supremacy</hi> in Matters <hi>Spiritual.</hi> I would only ſubjoyn inſtead of laying down and anſwering the Exceptions againſt it,
+<pb n="13" facs="tcp:51135:9"/>
+this one, I think <hi>Concluſive Argument;</hi> You know the End of Government; it is the <hi>Publick Weal,</hi> and external Happineſs of the <hi>City,</hi> and therefore it muſt be inveſted with a <hi>Power</hi> and <hi>Means</hi> ſufficient to that <hi>Purpoſe;</hi> or elſe he will never be able to proſecute his own <hi>Duty</hi> and their <hi>Good.</hi>
+            </p>
+            <p>And this I do affirm cannot otherwiſe be done, than by eſtabliſhing its Supremacy in <hi>Eccleſiaſticals;</hi> allow<g ref="char:EOLhyphen"/>ing it to have a <hi>Legiſlative</hi> and <hi>Coercive</hi> Power in the Things of <hi>Religion:</hi> And the Reaſon hereof is this; Becauſe an unbounded Liberty in Conſcience and Re<g ref="char:EOLhyphen"/>ligion, would unavoidably end, in a wild and dange<g ref="char:EOLhyphen"/>rous <hi>Rebellion;</hi> whereby the <hi>Government is diſsolv'd,</hi> and the Publick Peace <hi>overthrown,</hi> which is the greateſt Evil that can befal the <hi>City;</hi> ſo that I do not only think the Magiſtrate may make Laws con<g ref="char:EOLhyphen"/>cerning the Exerciſe of Religion, and <hi>puniſh</hi> ſuch as <hi>break them;</hi> but there is a Neceſſity hereof, to pre<g ref="char:EOLhyphen"/>vent <hi>Anarchy</hi> and <hi>Confuſion.</hi>
+            </p>
+            <p>For <hi>Separations</hi> and <hi>Diviſions</hi> in the <hi>Church</hi> (which is the Deſign, as well as the Effects of a Toleration) are as ſure to be ſucceeded as <hi>Day</hi> by <hi>Night,</hi> with Diſtractions, Commotions, and <hi>Wars</hi> in the <hi>State.</hi> And this was conſtantly urged by the <hi>Aſſembly-men</hi> to the late <hi>Houſe</hi> of <hi>Commons:</hi> And look, by how much ſtronger the Influence is, that theſe things have up<g ref="char:EOLhyphen"/>on mens Lives and Actions, by ſo much is the dan<g ref="char:EOLhyphen"/>ger abundantly greater, after once men are grown to this impatiency of <hi>Legal Reſtraints;</hi> for it makes men apt and <hi>bold</hi> to <hi>rebel,</hi> the moſt deſperate and pernicious one having commenced, from the ſpecious pretexts of Conſcience and Religion. You remember it was but crying it up for <hi>God</hi>'s <hi>Cauſe,</hi> and the <hi>Lord</hi>'s <hi>Work;</hi> and when the <hi>Eccleſiaſtick Drum</hi> beat thus,
+<pb n="14" facs="tcp:51135:10"/>
+how did the Saints flock into <hi>Chriſt</hi>'s <hi>Banner,</hi> and liſt themſelves <hi>Volunteers</hi> for this Civil and <hi>Holy War?</hi>
+            </p>
+            <p>So dangerous and <hi>unſafe</hi> it is to tolerate <hi>theſe Per<g ref="char:EOLhyphen"/>ſons</hi> in a Commonwealth, that turns <hi>mens Conſciences</hi> (which elſe are its beſt <hi>Security</hi>) upon the Govern<g ref="char:EOLhyphen"/>ment; for humane <hi>Sanctions</hi> will avail but <hi>little,</hi> where men are hurried on by the Fury of an <hi>Impe<g ref="char:EOLhyphen"/>tuous Zeal.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> To ſee the men of <hi>this Kidney</hi> ſo Religiouſly break the <hi>Second Table,</hi> in <hi>Obedience to the Firſt;</hi> Serve God with <hi>Blood</hi> and <hi>Rapine, Schiſm, Faction</hi> and <hi>Sedition;</hi> and as if they had a deſign to requite, and outvie <hi>our Saviour</hi> in his Sufferings, <hi>deſcend</hi> into <hi>Hell</hi> for <hi>Chriſt</hi>'s <hi>ſake.</hi>
+            </p>
+            <p>In ſhort, you leave <hi>a Prince</hi> but one Expedient more after this is gone, to preſerve himſelf, and Go<g ref="char:EOLhyphen"/>vernment, and that is <hi>a Standing Army,</hi> ſo that the King ſhall be neceſſitated to ſubſtitute an <hi>Arbitrary</hi> and <hi>Tyrannical Power</hi> in the <hi>Room</hi> of <hi>a Juſt</hi> and <hi>Law<g ref="char:EOLhyphen"/>ful one.</hi>
+            </p>
+            <p>And this is <hi>de facto</hi> Confirmed by all the Govern<g ref="char:EOLhyphen"/>ments in the World, where the practice of Diverſity of Religions is <hi>allowed;</hi> and it holds as true of the <hi>Netherlands</hi> as of <hi>Conſtantinople:</hi> Beſides, the bare Suppoſition hereof takes away all Conſcience and Re<g ref="char:EOLhyphen"/>ligion from a <hi>Chriſtian Monarch:</hi> Which was, what the <hi>old King</hi> ſo <hi>tenaciouſly</hi> inſiſted upon. For if I think thoſe Opinions and Ways wherein they deſire their Liberty, unſafe, or deſtructive to mens Souls, where's my own Religion if I conſent to it? And he that thinks his own Religion the right is <hi>an Atheiſt in Practice,</hi> if he does not heartily wiſh, and as far as he may <hi>Lawfully,</hi> endeavour to bring every body elſe to it. And this is to me an undeniable Argument
+<pb n="15" facs="tcp:51135:10"/>
+in Religion on the Princes ſide, as the other was in Policy.</p>
+            <p>You have ſeen what <hi>Power of Right they have;</hi> our next Enquiry is, how they ought to exerciſe <hi>this Truſt.</hi> This wall make up the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> of my Diſ<g ref="char:EOLhyphen"/>courſe. The Text ſays, <hi>a Sword they have,</hi> and they are <hi>not to bear it in vain.</hi> Now that is ſaid to be <hi>in vain,</hi> which do's not <hi>attain its End:</hi> The End of Go<g ref="char:EOLhyphen"/>vernment, you have heard, is to procure the exter<g ref="char:EOLhyphen"/>nal Peace and Happineſs of the Weal Publick, where<g ref="char:EOLhyphen"/>to the <hi>Magiſtrates</hi> are but ſo many <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Miniſters Servants;</hi> but then as the Sacred Function are impro<g ref="char:EOLhyphen"/>perly called Miniſters by the People, whoſe <hi>Rulers theſe are,</hi> but <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſo, and much more are <hi>Princes</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, but their Power is ſaid to be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> which are the ſeveral Expreſſions of Scripture relating thereunto. So that if they abuſe this Power, by Exorbitancy, 'tis <hi>their own,</hi> and <hi>God</hi>'s that they <hi>abuſe,</hi> to whom a<g ref="char:EOLhyphen"/>lone, as I ſaid, they are accomptable: For who of their Subjects may ſay unto them, <hi>What doſt thou?</hi> as <hi>Solomon</hi> ſays. Or <hi>againſt whom do they ſin?</hi> as <hi>Da<g ref="char:EOLhyphen"/>vid</hi> ſaid; who both did certainly underſtand as well as any, the Juſt Proportions of <hi>Liberty</hi> and <hi>Preroga<g ref="char:EOLhyphen"/>gative.</hi>
+            </p>
+            <p>But 'tis an extream of another nature, that my Text does admoniſh them of, their being too <hi>Laxe</hi> and <hi>Re<g ref="char:EOLhyphen"/>miſs</hi> in the exerciſe of their <hi>Coercive</hi> Power, whereby the <hi>good</hi> and the <hi>vertuous,</hi> that is the <hi>Loyal</hi> and <hi>Obedient,</hi> are expos'd to the <hi>Arbitrary Violences</hi> and <hi>Oppreſſions</hi> of the <hi>Factious</hi> and the <hi>Turbulent.</hi> Which is ſomewhat worſe than ſuffering under the Tyranny of a Lawful Power, becauſe that has always ſome right in what it does.</p>
+            <p>
+               <pb n="16" facs="tcp:51135:11"/>Another thing, which is a worſe inconvenience than that, is, it expoſes the Government it ſelf, to the In<g ref="char:EOLhyphen"/>ſolencies and Affronts of ſuch as are bold and impu<g ref="char:EOLhyphen"/>dent, in their diſobedience; For there is nothing more certain, in Experience, than that <hi>Impunity</hi> gives <hi>war<g ref="char:EOLhyphen"/>ranty</hi> and <hi>incouragement</hi> to <hi>ſin:</hi> So that if Authority grow a little <hi>tame</hi> and <hi>eaſie,</hi> if they ſuffer the <hi>Sword</hi> to <hi>Ruſt</hi> in the <hi>Scabbard,</hi> and the edge of it to grow <hi>Blunt</hi> for want of <hi>Vigor</hi> and <hi>Zeal,</hi> you'l ſee men quick<g ref="char:EOLhyphen"/>ly grow up from diſobeying the <hi>Laws,</hi> to contemn the <hi>Authority that made 'em,</hi> and the very next remove's [check-mate] open Rebellion.</p>
+            <p>Eſpecially this duty of putting the <hi>Laws in Execu<g ref="char:EOLhyphen"/>tion,</hi> belongs to all ſubordinate <hi>Magiſtrates,</hi> according to the proportions of Truſt and Power they ſhare un<g ref="char:EOLhyphen"/>der the Government. Who beſides the Obligations of the Prince, are bound to it by the additional Chara<g ref="char:EOLhyphen"/>cters of <hi>Truſt, Law</hi> and <hi>Religion,</hi> i. e. their <hi>Commiſſion</hi> the <hi>Laws</hi> of the <hi>Land,</hi> and <hi>their Oath,</hi> and in ſome, (particularly the Act againſt Conventicles) by <hi>Penal Proviſſions.</hi>
+            </p>
+            <p>Let us extend this <hi>Lenity</hi> of ours a little farther, and ſee what <hi>miſchievous</hi> effects would attend it. Let <hi>Villains</hi> alone to <hi>break your Houſes, raviſh your Wives, cut your Throats:</hi> Throw off all reſtraints of <hi>Goals and Fetters,</hi> and bonds of <hi>Peace and Behaviour,</hi> and ſee how it will <hi>reform mens Manners.</hi> Lay by the <hi>Mace</hi> and the <hi>Gown,</hi> the little Pagentries of your honour. For<g ref="char:EOLhyphen"/>bear to Fine and Amerce Men for neglecting your <hi>Courts,</hi> and mark with what Veneration and Atten<g ref="char:EOLhyphen"/>dance, you will be Obſerved?</p>
+            <p>To <hi>Improve</hi> this to our <hi>Purpoſe,</hi> What's the near? as to the higher ends of Government, to burn a Fellow in the Hand for ſttealing of a Sheep, or a Calfe? Or
+<pb n="17" facs="tcp:51135:11"/>
+Truſs up a poor Wretch for Committing of Burglary, to the great damage of wakeing the <hi>Child,</hi> and looſing a Cheſe? There are <hi>enormities</hi> of another kind, but more <hi>dangerous iſſue</hi> then theſe, which are very much in your power to <hi>redreſs;</hi> In curbing ſuch as go about to <hi>Debauch the Minds of His Majeſties good Subjects with Atheiſm, and Faction;</hi> thereby robbing him of his great<g ref="char:EOLhyphen"/>eſt <hi>Treaſure,</hi> and beſt ſecurity of his Government, and our <hi>Peace,</hi> their Affections and Conſciences: Such as <hi>Preach Seditiouſly,</hi> and can't tell how to pray for the <hi>King</hi> without <hi>Libelling of him.</hi>
+            </p>
+            <p>Such as dare not only Diſobey, but <hi>Confront Laws;</hi> who not only <hi>act</hi> contrary to the Government, but en<g ref="char:EOLhyphen"/>deavour to <hi>Subvert it.</hi> Who not only break their Su<g ref="char:EOLhyphen"/>periours Injunctions, but as our Saviour ſays of the <hi>Pha<g ref="char:EOLhyphen"/>riſees (whoſe Succeſſors they are in miſchief and hypocriſie</hi>) teach others to do ſo too.</p>
+            <p>And for this reaſon, I think they ought to be puniſh'd, and puniſh'd worſe too. Let me adde then <hi>Common Drunkards, Open Whoremaſters, and Prophane Swearers,</hi> (I make no Apology for them,) becauſe as my <hi>Lord Verulam</hi> has well Obſerv'd (and he was no great friend to the <hi>Churches Exaltation</hi>) as in the body Natural we dread a Wound that makes a <hi>Solutio Continui,</hi> worſe than Botches and Ulcers that are more painful and offenſive, ſo in the Parallel, theſe Mens Principles lead to Schiſm and Rebellion (and we have pretty well known their Practiſes,) which are the <hi>Solutio Continui</hi> in <hi>Church</hi> and <hi>State;</hi> whereas the other are indeed, againſt the Dignity of the Crown, and Honour of Religion, and do by a long Conſequence weaken, and by degrees diſ<g ref="char:EOLhyphen"/>poſe both Church and State to Ruine: but not like <hi>Drums</hi> and <hi>Trumpets.</hi> If it were only for their peeviſh ſtubbornneſs, they deſerve Puniſhment perhaps more
+<pb n="18" facs="tcp:51135:12"/>
+than worſe Offenders in another kind: becauſe the Laws do not ſo much Conſider the Nature of an Offence in it ſelf, as its evil tendency to the <hi>Publick;</hi> which becauſe it is more, and more often indangered by perſons under that Guiſe, than any other; they therefore ought to proceed more ſeverely againſt them, than Offences in the eſtimation of Religion, of a far more hainous Nature. And for the Mobile's being ſcandaliz'd hereat, concludes no more with me, but that their Ignorance, does not comprehend the Wiſdom of our Laws.</p>
+            <p>And if what has been ſaid, ſeem to warp too much one way, 'tis not becauſe I think better or worſe of <hi>Phanaticiſm,</hi> or <hi>Popery;</hi> though to give the Devil his due, we can't Charge them with ſuch another Inſtance, as the <hi>Late Kings Death;</hi> which we could never have been quit with them for, had not <hi>Oates</hi> in his <hi>Evidence</hi> made <hi>them a party</hi> in it.</p>
+            <p>The truth is, they are <hi>as bad</hi> or <hi>worſe,</hi> but their Num<g ref="char:EOLhyphen"/>bers and Advantages are not ſo great, and the danger on this ſide was ſo Imminent, that the very fear of the other had almoſt undone us. And the <hi>Word Popery</hi> was like to have done us, (as it had done formerly) as great or greater miſchief, then we could <hi>ſuffer by the thing.</hi>
+            </p>
+            <p>And yet we think our ſelves as good <hi>Proteſtants</hi> as them that ſpeak ſo little in ſo much againſt <hi>Popery, i. e.</hi> If by <hi>Proteſtant,</hi> we underſtand the <hi>Religion of the Church of England, as it is by Law Eſtabliſhed;</hi> and not meerly an <hi>Anti-religion form'd in Contradiction to another.</hi> If they mean <hi>ſuch a Proteſtant; I am none, nor ever will be.</hi>
+            </p>
+            <p>And 'tis the <hi>thing Popery</hi> I am angry with; whether I meet with it in <hi>Mariana,</hi> or <hi>Buchanan, Bellarmine</hi> or <hi>Knox.</hi> Of the two, 'twas more Creditable, to <hi>diſown the debt upon their death,</hi> then to juſtifie the Rebellion as
+<pb n="19" facs="tcp:51135:12"/>
+               <hi>Kid,</hi> and <hi>King</hi> did; and the reſt of them have ſince done upon the <hi>Gallows.</hi> One thing (me thinks) looks intolerable from this ſort of men; they have not only the impudence to deny all this, and ſome the folly to believe them innocent: but they ſet up for the <hi>Patriots of our Liberty,</hi> and the <hi>King's beſt Friends,</hi> and the great <hi>Bulwarks</hi> againſt <hi>Popery: All true alike.</hi>
+            </p>
+            <p>As to our Liberties, If they mean the quiet enjoyment of thoſe Rights and Properties the Kings of <hi>England</hi> have given to us by their Bounty, and confirmed by their Laws; when were they invaded, when were they in Jeopardy but from them?</p>
+            <p>If they mean the putting us into a capacity of doing what we liſt, and diſobeying thoſe Laws we do not like, and diſturb<g ref="char:EOLhyphen"/>ing the King's Peace; it concerns His Majeſty, and thoſe about him, to look to that. We well remember <hi>what faſt Friends they were to the Old King:</hi> for which I ſhall never be reconciled to them, till they bluſh and repent.</p>
+            <p>But they atton'd for that, by bringing in this.</p>
+            <p>I believe their <hi>Spleen</hi> againſt the <hi>Independent Party</hi> did contri<g ref="char:EOLhyphen"/>bute towards it.</p>
+            <p>But, if they had been the only <hi>Inſtruments</hi> of his <hi>Reſtoration,</hi> and had done it too upon the moſt Loyal and Generous Prin<g ref="char:EOLhyphen"/>ciples (neither of which is true) muſt that attone for all their <hi>Treaſons paſt, preſent</hi> and to <hi>come?</hi>
+            </p>
+            <p>I, for my part, think them ſuch <hi>Back Friends</hi> to the <hi>King,</hi> and to <hi>Monarchy,</hi> that I do not think either, ſafe, till they are diſ<g ref="char:EOLhyphen"/>arm'd, if not ſuppreſſed.</p>
+            <p>And as for <hi>Popery, Alas, They keep it out!</hi> did ever any of them ſay or write any thing againſt it, <hi>The Church of</hi> Rome <hi>thought fit to anſwer.</hi>
+            </p>
+            <p>They <hi>wound the Pope!</hi> they never levell'd their Arrows higher than the <hi>Church of</hi> England.</p>
+            <p>I'll give you an <hi>Inſtance</hi> equivalent to a <hi>Demonſtration.</hi> When they had the <hi>Power</hi> in their own hands, what new Laws or Proviſions did they then make againſt <hi>Papiſts?</hi> what <hi>Severities</hi> did they then <hi>execute</hi> upon them?</p>
+            <p>Their Zeal and Malice extended as far as to tear the <hi>Surplice,</hi> rend the <hi>Prayer-Book,</hi> break the <hi>Communion-Rails,</hi> prophane the <hi>Altar,</hi> hang the <hi>King's Party,</hi> and famiſh ſequeſter'd and outed Miniſters; but went no farther.</p>
+            <p>If I might gueſs, the <hi>Heads</hi> of that <hi>Party</hi> are not governed by <hi>Conſcience</hi> and <hi>Religion,</hi> but by <hi>Covetouſneſs</hi> and <hi>Ambition to
+<pb n="20" facs="tcp:51135:13"/>
+rule.</hi> Now what Booty will <hi>Popery</hi> afford them? I believe all the Lands they have diſcovered yet, will ſcarce pay one of the <hi>Proſecutors Debts;</hi> But the Crown and Church-Lands would make a world of <hi>New Squires</hi> and <hi>Lords.</hi>
+            </p>
+            <p>I would not be thought to ſpeak this, to abate any bodies <hi>Zeal</hi> againſt <hi>Popery:</hi> Let Juſtice have its Courſe in the name of God; but then let it be <hi>equally</hi> and <hi>impartially diſtributed?</hi> If men Will be plotting againſt the King's Life, and the Fun<g ref="char:EOLhyphen"/>damental Eſtabliſhments of the Government, I value not what <hi>Religion</hi> they be of.</p>
+            <p>I can eaſily foreſee a great many well meaning People will account all this as ſpoken againſt Godlineſs, and good Men: I don't much matter it, for I may ſerve them more effectually by their diſlike; becauſe I know 'tis the eaſieſt matter in the earth, to <hi>wheadle</hi> the <hi>Multitude,</hi> eſpecially in <hi>Religion;</hi> whom I therefore look upon as the moſt Incompetent Judges of their <hi>own Good,</hi> and had need be governed by thoſe who have <hi>bet<g ref="char:EOLhyphen"/>ter Eyes</hi> and <hi>Judgments</hi> than themſelves, to diſtinguiſh between <hi>Truths</hi> and <hi>Colours,</hi> the Neceſſities and <hi>Eſſentials of Govern<g ref="char:EOLhyphen"/>ment,</hi> from the <hi>Popular Noyſe of Liberty and Right.</hi>
+            </p>
+            <p>I forbear to urge you any farther: Let me intreat you to to be Zealous herein, by all that is <hi>Sacred</hi> and <hi>Inviolable;</hi> by <hi>the Duty</hi> you owe to <hi>Almighty God,</hi> and to <hi>Religion,</hi> not to ſuf<g ref="char:EOLhyphen"/>fer <hi>Prophaneneſs, Superſtition, Faction,</hi> to get any farther foot<g ref="char:EOLhyphen"/>ing, to the reproach of Chriſtianity, and hazard of Mens Souls.</p>
+            <p>By your Faith and Allegiance to his Majeſty, whoſe Honour and Safety is undermin'd hereby.</p>
+            <p>
+               <hi>By your</hi> Love and Affections to your <hi>Mother the Church,</hi> whom in Kindneſs and Gratitude, for maintaining and aſſert<g ref="char:EOLhyphen"/>ing your Authority, you ought to defend from the Furies and Inſolencies of her Enemies.</p>
+            <p>And laſt of all, <hi>by the</hi> Remembrance of all thoſe <hi>horrid Im<g ref="char:EOLhyphen"/>pieties</hi> and <hi>Villanies,</hi> Impunity and Connivance in Matters of that nature, was the <hi>undoubted Cauſe</hi> of.</p>
+            <p>From the like whereof being ever involv'd under again, <hi>The Good Lord of his mercy deliver us;</hi> and grant that our Factions and Diviſions never procure and effect thoſe Calamitous Judg<g ref="char:EOLhyphen"/>ments in the midſt of us, which our <hi>Impieties</hi> and other <hi>Pro<g ref="char:EOLhyphen"/>phanations</hi> have but too juſtly deſerved.</p>
+            <p>Amen, <hi>Good Lord grant it for</hi> Jeſus ſake; <hi>to whom with the Father and the Holy Ghoſt be Glory and Honour,</hi> Amen.</p>
+         </div>
+         <div n="2" type="sermon">
+            <pb n="23" facs="tcp:51135:13"/>
+            <head>SERMON II.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>ECCLES. 5. Ch. 1. Ver. former part.</hi>
+                  </bibl>
+                  <p>Keep thy foot when thou goeſt to the Houſe of God.</p>
+               </q>
+            </epigraph>
+            <p>LEt me do it this once though it be not uſual, acquaint you to rights, with the deſign of the following Diſcourſe: And 'tis this.</p>
+            <p>Though <hi>God Almighty</hi> do's expect the purity of our Mind, and devotion of our Hearts, in the Offices of Religion; yet is he extremely pleas'd that it be attended with and expreſs'd by out<g ref="char:EOLhyphen"/>ward <hi>Splendor</hi> and <hi>Decency.</hi>
+            </p>
+            <p>A ſeeming odd and <hi>bold</hi> collection from a <hi>dark</hi> and antiquated Text of Scripture.</p>
+            <p>But your wonder and amazement will be ſoon over, when you ſhall underſtand—</p>
+            <p n="1">1. That this is the <hi>Genuine</hi> purport of the expreſ<g ref="char:EOLhyphen"/>ſions in my Text: And—</p>
+            <p n="2">2. That it continues to oblige us now, under the Evangelick adminiſtration.</p>
+            <p n="1">
+               <pb n="20" facs="tcp:51135:14"/>1. Then I do affirm that this is no forc'd Com<g ref="char:EOLhyphen"/>ment; there needs no violence nor rack to be put to my Text to extort this ſenſe; but 'tis the plain meaning of the words, which will appear as plain, if we but compare this with two other Texts of Scri<g ref="char:EOLhyphen"/>pture; the one part of the <hi>Propoſition</hi> from the <hi>one,</hi> and the other from the <hi>other.</hi> Our Saviours diſcourſe with St. <hi>Peter,</hi> in the 13th. Chapter of St. <hi>John</hi>'s Goſpel, the 6th. and 10th. Verſes, <hi>incluſive,</hi> about waſhing his feet, <hi>i. e.</hi> purging his affections, does ſufficiently clear that part, <hi>viz. inward purity</hi> to be compriz'd in the words, and is a farther proof of the neceſſity of it. And</p>
+            <p>The other part, <hi>viz.</hi> of outward <hi>Reverence</hi> is as clear from the words of God to <hi>Moſes</hi> in the 3d. Ch. of <hi>Exodus,</hi> 5th. Verſe, commanding him to put off his <hi>Shooes</hi> from off his feet, by reaſon of the <hi>holineſs of the place;</hi> becauſe of Gods ſpecial preſence. A <hi>Rite</hi> and <hi>Ceremony</hi> famous enough, both as to <hi>uſe</hi> and ſignification, among the <hi>Oriental</hi> Nations.</p>
+            <p>Now if we would expound this in the <hi>Analogy,</hi> what putting off the <hi>Shoes</hi> was to them, a thing al<g ref="char:EOLhyphen"/>together unpractis'd <hi>with us;</hi> the ſame is uncovering of the <hi>Head</hi> with us; a thing with them <hi>abomina<g ref="char:EOLhyphen"/>ble.</hi> And if we explain this by a <hi>Synecdoche ſpeciei,</hi> comprizing the whole <hi>kind,</hi> under one inſtance; this muſt be the neceſſary reſult of the expreſſions in my <hi>Text,</hi> that we ſhould uſe all poſſible <hi>Reverence</hi> and Decency, when we are about the Service of <hi>God;</hi> not excluding the other, which yet is but the <hi>Symbo<g ref="char:EOLhyphen"/>lick</hi> and <hi>Myſtical</hi> ſignification.</p>
+            <p n="2">2. But how in the ſecond place if we are not under the <hi>Obligation</hi> of this <hi>Precept?</hi>
+            </p>
+            <p>
+               <pb n="21" facs="tcp:51135:14"/>That I am next to ſhew you how far we are, or are not.</p>
+            <p>In applying all the peculiar caſes of the <hi>Jewiſh</hi> Church in the Old <hi>Teſtament,</hi> we obſerve this <hi>Rule.</hi>
+            </p>
+            <p>We do not urge them in the <hi>Letter,</hi> and prime in<g ref="char:EOLhyphen"/>tention; but only in the equity and <hi>analogy</hi> thereof: whatſoever, <hi>i. e,</hi> is of <hi>moral</hi> uſe in them belongs to us. And this I juſtifie from two <hi>Inſtances;</hi> the firſt is that of St. <hi>Paul,</hi> in the 1ſt. of <hi>Corinth.</hi> 9th. Chap. 13, 14. Verſes, where he infers the mainte<g ref="char:EOLhyphen"/>nance of our <hi>Clergy</hi> from <hi>theirs;</hi> as he had done be<g ref="char:EOLhyphen"/>fore at the 9th. Verſe, from a precept more <hi>remote</hi> than that, <hi>viz.</hi> the not <hi>muzling</hi> the Ox.</p>
+            <p>The other <hi>Inſtance,</hi> (and which is very proper to our preſent deſign) is that of our <hi>Saviour</hi> in the 21ſt. of St. <hi>Matthew,</hi> 12, 13, Verſes, where, having driv'n thoſe that bought and ſold in the Temple out of it. (Suffer me to obſerve (by the by) that this was the only caſe in which we read, he exercis'd a <hi>Juriſdiction</hi> of this kind, and in this he did it <hi>twice.</hi>
+            </p>
+            <p>Once at the coming in to his <hi>Miniſterial Office,</hi>
+               <note place="margin">John 2.15.</note> and here at the going out; both for the ſacrilegious prophanation of the place of Gods Worſhip.)</p>
+            <p>To vindicate himſelf he refers them to the words of <hi>God</hi> by the Prophet <hi>Iſaiah,</hi> Chap. 56. Verſe 7. which words as they are applied by our Saviour, be<g ref="char:EOLhyphen"/>long not to the <hi>Jewiſh Temple,</hi> but to the <hi>Gentil Oratory,</hi> or elſe they would not make at all to our, or his purpoſe. And becauſe the <hi>ſtreſs</hi> of the Argu<g ref="char:EOLhyphen"/>ment lies there, let me make that out clear to you.</p>
+            <p>You muſt know that the furious zeal of the <hi>Jews</hi> was ſo great, that they would not ſuffer an <hi>
+                  <g ref="char:V">Ʋ</g>ncir<g ref="char:EOLhyphen"/>cumciſed</hi> perſon to enter into the Temple: <hi>Than
+<pb n="22" facs="tcp:51135:15"/>
+which,</hi> nothing can be more evident from St. <hi>Paul</hi>'s caſe, <hi>Acts</hi> 21.28.</p>
+            <p>And <hi>Joſephus</hi> tells us, they would not ſuffer <hi>Agrippa</hi>'s Palace to look into it, for fear of <hi>prophaning</hi> it.</p>
+            <p>Underſtand it therefore of that part of the <hi>Tem<g ref="char:EOLhyphen"/>ple</hi> which was called the <hi>Court</hi> of the <hi>Gentils,</hi> where the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> or <hi>Proſelytes</hi> of the <hi>gate</hi> worſhiped.</p>
+            <p>And this our Saviour would not ſuffer to be pro<g ref="char:EOLhyphen"/>phan'd by common uſages, no not under a <hi>Religious</hi> pretence: the deſign being only to furniſh <hi>people</hi> with thoſe neceſſary proviſions which the <hi>Law</hi> en<g ref="char:EOLhyphen"/>joyn'd, and which <hi>many</hi> (by reaſon of their diſtant habitations) could not bring with them.</p>
+            <p>From both which <hi>Inſtances,</hi> we collect our <hi>general propoſition, viz,</hi> that we are ſo far under the obligati<g ref="char:EOLhyphen"/>on of the <hi>Jewiſh</hi> precepts, as they are capable of <hi>moral</hi> improvement; and from the latter, we gain thus much of our particular aſſertion; that <hi>God</hi> ab<g ref="char:EOLhyphen"/>hors all <hi>indecencies</hi> and <hi>prophanations</hi> of his Worſhip. And I doubt not, by that time we have conſidered what other proofs I have to confirm it by, it will ap<g ref="char:EOLhyphen"/>pear that this injunction of <hi>Reverence</hi> farther than the particular right or manner of expreſſing it, was <hi>none</hi> of the ſtrict <hi>ceremonial</hi> or appropriate Laws of that <hi>Religion.</hi> But,</p>
+            <p n="1">1. Begin we with the former part, <hi>viz.</hi> the neceſ<g ref="char:EOLhyphen"/>ſity of inward <hi>purity,</hi> and the ſpirituality of <hi>Divine</hi> Worſhip. I know none ſo vain as to affirm in direct terms, that <hi>corporal Worſhip,</hi> and the outward ſo<g ref="char:EOLhyphen"/>lemnities of Religion <hi>alone</hi> are grateful to <hi>God;</hi> per<g ref="char:EOLhyphen"/>haps that which makes them to be ſo at all, is, their being conducible <hi>hereunto,</hi> or ſignificative <hi>hereof.</hi>
+               <pb n="23" facs="tcp:51135:15"/>
+But without this, all outward <hi>ſplendor</hi> otherwiſe very acceptable to <hi>God</hi>) is but a kind of Religious <hi>Pageantry,</hi> and a more ſolemn and notorious mock<g ref="char:EOLhyphen"/>ing of <hi>Almighty God,</hi> and is extremely <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to his <hi>Divine Majeſty;</hi> as you find <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> proteſting, eſpecially under the <hi>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Teſtament</hi> when their more early <hi>zeal</hi> was apt to <hi>ſpire</hi> 
+               <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> thoſe verd but <hi>fruitleſs</hi> expreſſions of <hi>Religion</hi> like the Fig-tree by which they are <hi>emblemated</hi> in the Goſpel, <hi>Mat.</hi> 21, 19. Our Saviour in anſwering that important queſtion about the manner of <hi>Divine Wor<g ref="char:EOLhyphen"/>ſhip,</hi> in the 4th. Chap. of St. <hi>John,</hi> 24. Verſe. does not exclude corporal Worſhip: he mentions only <hi>ſpiritual,</hi> becauſe that Worſhip which has this <hi>pro<g ref="char:EOLhyphen"/>perty</hi> may be accepted without the <hi>other;</hi> but never the <hi>other</hi> without <hi>this.</hi>
+            </p>
+            <p>He does not condemn, or diſlike any <hi>external</hi> ſplendor and decency in the expreſſions of our <hi>Reli<g ref="char:EOLhyphen"/>gious</hi> Worſhip (as we ſhall afterwards prove) unleſs it be ſeparated and divided from the other; and if we our ſelves make the ſeparation, neither is acce<g ref="char:EOLhyphen"/>ptable;</p>
+            <p>For as <hi>that</hi> without <hi>this</hi> is always <hi>hypocriſie,</hi> ſo <hi>this</hi> without <hi>that</hi> (where there is opportunity) is a down<g ref="char:EOLhyphen"/>right <hi>prophanation.</hi>
+            </p>
+            <p>
+               <hi>Moraliſts</hi> ſay, that a <hi>defect</hi> in any conſiderable circumſtance, <hi>marrs</hi> an action otherwiſe <hi>good;</hi> how much more when it labours under a deficiency, in any of the prime <hi>parts;</hi> that which we may call the life and ſoul of Religion, ſince the <hi>Apoſtle</hi> has juſti<g ref="char:EOLhyphen"/>fied the alluſion, <hi>Rom.</hi> 12.1.</p>
+            <p>The conjunction of <hi>Soul</hi> and <hi>Body</hi> make us what we are; and the joynt expreſſion of the various
+<pb n="24" facs="tcp:51135:16"/>
+powers of both theſe, make up that living <hi>Sacrifice</hi> there ſpoken of.</p>
+            <p>But now if the mind be not fill'd with Reverence, Devotion and Obedience, our <hi>corporeal</hi> worſhip, is but like the cutting off a <hi>Dogs</hi> head, or the expoſing of <hi>Carrion</hi> in a <hi>Sacrifice;</hi> without this ſincerity of mind, all our out-ſide performances, altho in thoſe <hi>inſtances</hi> of Religion, that are immediately and di<g ref="char:EOLhyphen"/>rectly enjoyned by <hi>God,</hi> are
+<list>
+                  <item>1. <hi>Irrational</hi> and <hi>abſurd.</hi> And</item>
+                  <item>2. <hi>Dangerous</hi> and <hi>provoking.</hi> Firſt,</item>
+               </list>
+            </p>
+            <p>'Tis <hi>irrational</hi> and abſurd, altogether incongruous both to <hi>Gods</hi> nature and our <hi>own.</hi>
+            </p>
+            <p>Nothing I think can be more repugning to <hi>God Al<g ref="char:EOLhyphen"/>mighty,</hi> than ſuch an <hi>equivocal</hi> Religion; certainly he could never appoint, nor can he ever be pleas'd, with a ſervice ſo unſuitable to his being: We ſink him as low as the vileſt <hi>notion</hi> of the <hi>Heathen Dai<g ref="char:EOLhyphen"/>mons,</hi> to think him <hi>recreated</hi> with the ſmell of <hi>In<g ref="char:EOLhyphen"/>cenſe,</hi> or nouriſhed by the vapours of a <hi>Sacrifice. God</hi> (ſays our <hi>Saviour</hi>) is a <hi>Spirit,</hi> and for that rea<g ref="char:EOLhyphen"/>ſon is delighted with ſpiritual <hi>Worſhip:</hi> So that there cannot be a greater contradiction to his <hi>nature</hi> and worſhip, than <hi>this out-ſide obedience.</hi> For what <hi>mean we</hi> by Religious Worſhip but the acknowledging of the <hi>Divine Excellency,</hi> and the profeſſion of our Obedience to him. And is not this to accuſe him of <hi>Weakneſs, Ignorance</hi> and <hi>Injuſtice,</hi> to tolerate ſuch <hi>contempt, mockery</hi> and <hi>deriſion?</hi> So that if in one re<g ref="char:EOLhyphen"/>ſpect, this be to worſhip <hi>God,</hi> as it is to others a ſeem<g ref="char:EOLhyphen"/>ing profeſſion of our ſubjection to, and dependence upon him; yet is it on <hi>another,</hi> and much greater <hi>accompt,</hi> the higheſt <hi>violation</hi> of his Worſhip, be<g ref="char:EOLhyphen"/>cauſe
+<pb n="25" facs="tcp:51135:16"/>
+men do <hi>really</hi> and effectively deny, what they do only <hi>overtly</hi> and ſuperficially acknowledg and <hi>profeſs.</hi>
+            </p>
+            <p>Beſides it would be very abſurd, and irrational in reſpect of our <hi>ſelves.</hi> That <hi>God Almighty</hi> ought to be worſhip'd in the <hi>beſt way</hi> and manner that we can, no body that owns any Religion and his ſenſes will offer to <hi>deny.</hi>
+            </p>
+            <p>Now if for that reaſon, <hi>God</hi> require, and <hi>we offer</hi> the external manifeſtations of our inward fear, and love, by certain corporeal and <hi>ſymbolical</hi> expreſſions; that the <hi>Holocauſt</hi> might be perfect and <hi>entire;</hi> and that no part of us might be wanting in the acknow<g ref="char:EOLhyphen"/>ledgment of his bounty in our being; <hi>Certes</hi> that, of our mind may leaſt be omitted, without which our ſervices were no better than the <hi>chattering</hi> of <hi>Mag<g ref="char:EOLhyphen"/>pies,</hi> or <hi>howling</hi> of <hi>Wolves;</hi> nay much worſe, <hi>becauſe</hi> theſe know nor are capable of no better; <q>Whereas the <hi>mind</hi> of <hi>man</hi> being a perpetually active <hi>principle,</hi> when it ſecretly inclines to evil, cauſes not a de<g ref="char:EOLhyphen"/>fect only, but a <hi>Sacrilegious detraction</hi> in Religion; and is rather a <hi>nullity</hi> than imperfection in our Obedience.</q>
+            </p>
+            <p>For if we for any other reſpects, than ſuch as are allowed <hi>by God,</hi> compoſe our ſelves to the performing of any of the <hi>external</hi> Offices of <hi>Religion;</hi> what is this! but a ſerving of thoſe reſpects, our <hi>Pride,</hi> or <hi>Luſt</hi> ſuppoſe, and not of <hi>God?</hi>
+            </p>
+            <p n="2">2. Farther in the ſecond place, 'tis not only <hi>irra<g ref="char:EOLhyphen"/>tional</hi> and abſurd, but moſt <hi>abominably</hi> vain, impi<g ref="char:EOLhyphen"/>ous and full of hazard. Than which, nothing in the world, no, not open <hi>Irreligiouſneſs,</hi> which may be <hi>worſe</hi> perhaps upon the account of <hi>Scandals,</hi> is more
+<pb n="26" facs="tcp:51135:17"/>
+               <hi>incenſing</hi> and <hi>provoking</hi> to <hi>God Almighty.</hi> 'Tis impoſ<g ref="char:EOLhyphen"/>ſible to expreſs a higher reſentment and diſguſt againſt any thing than he does againſt it, in the 1ſt. Chapter of <hi>Iſaiah.</hi>
+            </p>
+            <p>And with great <hi>juſtice:</hi> for to their <hi>Diſobedience</hi> men add contempt and deriſion (for ſuch are all the <hi>ſervices</hi> of ungodly men, till at <hi>leaſt</hi> they begin to purpoſe amendment) which is, you know, the moſt <hi>inſufferable</hi> of all <hi>affronts;</hi> and by conſequence 'tis our higheſt folly (as <hi>Solomon</hi> has obſerved) <hi>Prov.</hi> 14.9. And the worſt aggravation of ſin that can be. <hi>Surely,</hi> as thoſe things are moſt <hi>ugly</hi> and diſpleaſing that have only a <hi>ſimilitude</hi> or reſemblance of what is truly excellent, as <hi>Baboons</hi> and <hi>Apes</hi> to humane nature, ſo in like manner thoſe ſervices of ours, that have only <hi>a mask</hi> or <hi>ſhadow</hi> of <hi>Religion,</hi> muſt needs be more <hi>abhorr'd,</hi> and diſtaſted by <hi>God,</hi> than open and groſs Impiety.</p>
+            <p>I forbear to <hi>urge</hi> this point any further, becauſe <hi>hypocriſie,</hi> though it be not ſo eaſily detected, as 'tis <hi>raſhly cenſur'd,</hi> is, however <hi>generally</hi> decried and <hi>ex<g ref="char:EOLhyphen"/>ploded.</hi>
+            </p>
+            <p>Thus far the <hi>Diſſenters</hi> and we are <hi>agreed.</hi> But why this devotion of the heart, and mind, ſhould be <hi>confined</hi> there, or ſuffer'd on y to <hi>goggle</hi> at the <hi>eyes,</hi> or <hi>foam</hi> at the <hi>mouth</hi> of the <hi>Preacher;</hi> (for that's the great inſtance of their <hi>Religion</hi>) or vent it ſelf in <hi>nauſeous</hi> and <hi>forbidden tautologies,</hi> in broad and <hi>ugly metaphors<g ref="char:punc">▪</g> ſaucy</hi> familiarities, and a rude <hi>ignorance</hi> unworthy <hi>humane nature,</hi> and approaching to <hi>blaſ<g ref="char:EOLhyphen"/>phemy?</hi> no ſolid reaſon can ever be giv'n for it. Or, As if I could not pray to <hi>God</hi> in a grave and com<g ref="char:EOLhyphen"/>pos'd form, think reverently of his <hi>Majeſty</hi> upon my
+<pb n="27" facs="tcp:51135:17"/>
+               <hi>knees,</hi> and offer my Thanks and Obedience in an <hi>Alb,</hi> or <hi>Cope,</hi> they will never be able to produce any ſolid reaſon to oppoſe it.</p>
+            <p>If noiſe be <hi>demonſtration,</hi> and the <hi>multitude</hi> may judg what's beſt, the day is <hi>theirs:</hi> But if we weigh things in a clear and <hi>impartial</hi> judgment, and deter<g ref="char:EOLhyphen"/>mine according to the ſtrength and evidence of <hi>right reaſon,</hi> we fear not the <hi>Cauſe.</hi> For I doubt not to prove (which was the other part of our propoſition) the <hi>juſtifiableneſs,</hi> I will ſay <hi>requiſiteneſs</hi> of outward <hi>Reverence</hi> and <hi>Decency</hi> in all the ſolemn concerns of <hi>Religion.</hi>
+            </p>
+            <p n="1">1. The firſt kind of proof I ſhall bring for it, ſhall be drawn from the conſtant Obſervation of it, in all the immediate <hi>Inſtitutes</hi> of Divine Worſhip in the <hi>Jewiſh Church.</hi>
+            </p>
+            <p>Time <hi>was,</hi> when <hi>men</hi> could find no better colour to mask their <hi>villany</hi> and <hi>impiety.</hi> A ſingle Text out of the Old Teſtament was thought ſufficient to juſtifie the worſt of <hi>Crimes, Murder, Robbery, Sacrilege, Re<g ref="char:EOLhyphen"/>bellion,</hi> &amp;c. againſt the plaineſt rules of our <hi>Saviour,</hi> and the whole deſign of Religion: But let any thing of that kind be alledged for the ſubſerviency of the <hi>Churches</hi> peace, and the maintenance of the <hi>ſplendor</hi> and decency of Religion: Then <hi>Quid nobis cum Moſe?</hi> What is the Ceremonial Law to us?</p>
+            <p n="1">1. I do readily grant in the firſt place, That to bring any under the neceſſity and obedience of that <hi>Law,</hi> is directly againſt the <hi>liberty of the Goſpel, vir<g ref="char:EOLhyphen"/>tually</hi> to deny <hi>Chriſt</hi> to become in the <hi>fleſh.</hi> The ſame is to impoſe any of the <hi>Ceremonies</hi> there enjoyned, as a part of <hi>Gods</hi> worſhip, becauſe there comman<g ref="char:EOLhyphen"/>ded, by immediate <hi>vertue</hi> thereof.</p>
+            <p n="2">
+               <pb n="28" facs="tcp:51135:18"/>2. I grant farther, to impoſe theſe, or any other <hi>Ceremonies</hi> in Religion, either as eſſentially <hi>good</hi> and neceſſary in themſelves, or by reaſon of any imme<g ref="char:EOLhyphen"/>diate command of <hi>Gods</hi> (other than ſuch as are of <hi>Divine appointment</hi>) or as <hi>univerſally</hi> and immutably <hi>obligatory</hi> to mens Conſciences. This is not to <hi>retrieve</hi> that (which St. <hi>Paul</hi> contended ſo againſt in his <hi>Epi<g ref="char:EOLhyphen"/>ſtles</hi>) but to erect a new <hi>Ceremonial</hi> Law.</p>
+            <p>But what therefore! is there no uſe of the <hi>Moſaick</hi> Writing to us Chriſtians? why then are they conti<g ref="char:EOLhyphen"/>nued in the <hi>Sacred Rule?</hi> May they not ſtill be con<g ref="char:EOLhyphen"/>ſidered and inforced as far as the reaſon and equity of them ſhall <hi>extend?</hi> Yes, <hi>no doubt;</hi> though it were in the very inſtances of that Law, as in accommoda<g ref="char:EOLhyphen"/>ting the Laws and Rules of the <hi>Jewiſh Sabbath</hi> and <hi>Temple,</hi> to our <hi>Lords Day</hi> and Chriſtian Churches.</p>
+            <p>This being premis'd; I have no more to do, but to ſhew you that <hi>God</hi> himſelf did not only enjoyn ſo much, which is true by <hi>manifold,</hi> and undeniable in<g ref="char:EOLhyphen"/>ſtances; but, and alſo that it is within the equity and reaſon of thoſe <hi>Precepts.</hi>
+            </p>
+            <p>Never was any Religion (I think) more <hi>ſtately</hi> and pompous erected by the moſt <hi>ſuperſtitious</hi> pretenders thereto; and they are not uſually backward in what relates to the external part, the Habiliments of the <hi>Prieſt,</hi> and the Ornaments of the Sanctuary were rich, even to a degree of <hi>Gawdery.</hi> Which thing I would be ſatisfied, why they may not as well ſignifie decency in <hi>Religious Worſhip,</hi> whereto they are aptly and eaſily <hi>improvable,</hi> as any of thoſe <hi>re<g ref="char:EOLhyphen"/>moter things</hi> whereto they are generally apply'd?</p>
+            <p>Thus much therefore we may not be deny'd, that there can be no unlawfulneſs ſimply in making ſuch
+<pb n="29" facs="tcp:51135:18"/>
+proviſion and appointments; becauſe <hi>God</hi> himſelf did once <hi>direct</hi> and <hi>enjoyn</hi> as much. 'Tis true as to the particular inſtances of his pleaſure, he has repeal'd theſe from being any longer a Law; and there is a great deal of <hi>reaſon</hi> for it, and ſuch as may render them uncapable from ever paſſing into a Law again; becauſe 'tis apparent they had another deſign <hi>peculiar</hi> and appropriate, namely to <hi>prefigure,</hi> ſignifie, or exhi<g ref="char:EOLhyphen"/>bit ſuch and ſuch things. But this could not be the ſole reaſon of all thoſe <hi>Laws;</hi> becauſe that parti<g ref="char:EOLhyphen"/>cular end, ſuppoſe the coming of <hi>Chriſt,</hi> might have been done by fewer Ceremonies, and thoſe more ſim<g ref="char:EOLhyphen"/>ple and plain; which yet God did not think ſo fit, but made choice of ſuch, as beſides their peculiar re<g ref="char:EOLhyphen"/>lations might indicate the <hi>decency</hi> and ſplendor of his Service.</p>
+            <p>I know not what more can be added for the illu<g ref="char:EOLhyphen"/>ſtrating of this proof, unleſs it be the general con<g ref="char:EOLhyphen"/>ſent, and univerſal practice of <hi>Religious</hi> men of all kinds, and in all ages: for though we ſee but little hereof in the infancy of the <hi>Jewiſh</hi> and Chriſtian <hi>Churches</hi> (whereof there was one and the ſame reaſon in both, <hi>viz.</hi> their <hi>Poverty</hi>) but this you ſhall obſerve in both, that the outward <hi>grandeur</hi> of their Religion bore always a proportion to their outward <hi>State.</hi>
+            </p>
+            <p>
+               <hi>God,</hi> I doubt not was well pleaſed with the Worſhip of the <hi>Iſraelites in Egypt,</hi> but they no ſooner became poſſeſſors of any thing in the <hi>Wilderneſs,</hi> but you find a progreſſion in the Ceremonious part of Religion. And ſo in <hi>Solomons</hi> days (which was the <hi>Criſis</hi> of that ſtate) what <hi>ſurpluſage</hi> and increaſe of <hi>utenſils,</hi> does he make to adorn the <hi>Temple</hi> with, notwithſtanding what God had ſaid <hi>Exod.</hi> 25.40. to the contrary.</p>
+            <p>
+               <pb n="30" facs="tcp:51135:19"/>So in the firſt ages of <hi>Chriſtianity,</hi> there were no <hi>Secular</hi> honors, nor <hi>ſettled</hi> Revenues beſtowed upon the <hi>Clergy;</hi> they had none of thoſe Ornaments that after-Ages brought in, at the <hi>miniſtring</hi> of holy Offi<g ref="char:EOLhyphen"/>ces. The places of <hi>Divine Worſhip</hi> (for ſuch they had <hi>hallow'd</hi> and appropriate, Mr. <hi>Mede</hi> has undeniably prov'd in all the moſt controverted <hi>Centuries</hi>) they were mean and ſimple, but this continued no longer than, and was born with, the reſt of their afflictions. Their after-practice upon their very firſt freedom, is an unqueſtionable <hi>evidence,</hi> that this was the effect of their neceſſity, not of their <hi>choice</hi> and liking.</p>
+            <p>I'le conclude this point, with an obſervation of the <hi>judicious Hooker,</hi> 
+               <q>We muſt not think (ſaith he) but there is ſome ground of <hi>reaſon,</hi> even in <hi>nature,</hi> whereby it comes to paſs, that no Nation under Heaven, did ever ſuffer any weighty actions, whe<g ref="char:EOLhyphen"/>ther <hi>Civil</hi> and <hi>Temporal,</hi> or <hi>Spiritual</hi> and <hi>Sacred,</hi> to paſs without ſome viſible <hi>Solemnities.</hi>
+               </q>
+            </p>
+            <p>And if this do not ſufficiently conclude and prove our <hi>aſſertion,</hi> I am ſure the two following do; for if I can but <hi>deduce</hi> it directly from any of the ten <hi>Com<g ref="char:EOLhyphen"/>mandments</hi> in the <hi>Moral Law,</hi> or ſhew it you in ex<g ref="char:EOLhyphen"/>preſs terms in the <hi>Canons</hi> of the <hi>Goſpel</hi> (as I make no great queſtion I ſhall do both) there can remain no farther cauſe of exception or <hi>appeal.</hi> Firſt then,</p>
+            <p n="1">1. I do affirm, though this be not contained in ſo many words, in any of the ten <hi>Commandments,</hi> yet is it the <hi>principal</hi> if not <hi>ſole deſign</hi> of one of them, <hi>viz,</hi> the <hi>fourth.</hi>
+            </p>
+            <p>For do but take away the <hi>Ceremonial</hi> part of this <hi>precept</hi> (as we muſt allow a great part of it to be ſo) and there remains nothing more, <hi>i. e. diſtinct</hi> and pe<g ref="char:EOLhyphen"/>culiar
+<pb n="31" facs="tcp:51135:19"/>
+to this, from the other <hi>three</hi> preceding <hi>com<g ref="char:EOLhyphen"/>mands,</hi> but what do <hi>amount</hi> to our preſent <hi>purpoſe;</hi> for neither the <hi>ſpecial,</hi> nor the <hi>particular</hi> determina<g ref="char:EOLhyphen"/>tion of <hi>time</hi> there expreſſed, nor yet the <hi>manner</hi> of the <hi>reſt,</hi> can with any pretence of reaſon be <hi>accounted</hi> for any moral part of that <hi>Law:</hi> for then they would have been <hi>immutably</hi> and <hi>perpetually Obliga<g ref="char:EOLhyphen"/>tory.</hi>
+            </p>
+            <p>And if ſo, upon what elſe can we fix as the moral <hi>intendment</hi> of that precept, but ſomewhat to this or the like purpoſe; namely, that <hi>God Almighty</hi> will be publickly worſhip'd, by <hi>ſtated</hi> and <hi>ſolemn</hi> times, <hi>places,</hi> and <hi>manners.</hi> For whereas the deſign of the firſt <hi>Commandment</hi> is to appoint and enjoyn inward worſhip, and of the two next to order and regulate the outward <hi>manifeſtations</hi> and expreſſions of it, that is to ſay, in oppoſition to <hi>Superſtition</hi> in the ſecond, and <hi>prophaneneſs</hi> in the third.</p>
+            <p>All which concerned the particular, and ſingle worſhip of <hi>individual</hi> perſons. There wanted there<g ref="char:EOLhyphen"/>fore a Law to <hi>appoint</hi> and govern the publick and ſolemn worſhip of <hi>Communities</hi> and <hi>Societies.</hi>
+            </p>
+            <p>For of either of theſe <hi>truths</hi> I think there can a<g ref="char:EOLhyphen"/>riſe but very little doubt, <hi>viz. firſt,</hi> that all men are obliged to worſhip and ſerve <hi>God,</hi> not only in their particular capacity, but alſo as <hi>members</hi> of ſome Church and <hi>Congregation.</hi> And ſecondly, That there is not any direct proviſion for this in any of the three preceding <hi>Laws,</hi> which were ſufficient and complete for the <hi>other.</hi>
+            </p>
+            <p>Wherefore <hi>God Almighty</hi> took care to <hi>ſecure</hi> and direct that part of his Worſhip by a new Law, wherein we have inſtructions, not only how to be<g ref="char:EOLhyphen"/>have
+<pb n="32" facs="tcp:51135:20"/>
+our ſelves, but how to govern our families, and dependents.</p>
+            <p>So that if you take away the <hi>publickneſs,</hi> and other things pertaining to the <hi>decency</hi> and <hi>ſolemnity</hi> of <hi>Religion,</hi> you take away almoſt, or <hi>altogether,</hi> all that is directly and pr<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>perly intended in the fourth Commandment: and without this we leave the firſt Table uncomplete, and but an imperfect <hi>digeſt</hi> of <hi>Divine Worſhip.</hi> For ſay that <hi>God</hi> be to be worſhip'd truly and ſpiritually, outwardly and cor<g ref="char:EOLhyphen"/>porally, appropriate and <hi>diſcriminately;</hi> there wants to be added <hi>publickly</hi> and <hi>ſolemnly.</hi>
+            </p>
+            <p>And altho <hi>time</hi> be the only circumſtance therein ſeemingly aimed at, yet the <hi>Jews Rule,</hi> who make it the head and meaſure of all <hi>Ceremonies,</hi> and by the neceſſity of the thing we muſt include and comprize under <hi>the law of times, places</hi> alſo and <hi>perſons,</hi> and <hi>modes,</hi> as ſtanding in equal relation to <hi>Gods Worſhip.</hi>
+            </p>
+            <p n="2">2. Paſs we next to the <hi>Evangelick</hi> Law, and ſee what ground and authority we have for our aſſertion <hi>there.</hi> I ſhall refer you but to one place, which for the <hi>perſpicuity,</hi> and <hi>validity</hi> of it, is <hi>irrefragable.</hi>
+            </p>
+            <p>And that is that <hi>grand</hi> and Apoſtolical <hi>Canon</hi> in the firſt Epiſtle to the <hi>Corinthians,</hi> Chap. 14. and laſt Verſe, <hi>Let all things be done decently and in order.</hi>
+            </p>
+            <p>This is one of thoſe two <hi>Rules,</hi> or Laws by which the Governors of the <hi>Church</hi> are to be directed in the regulating and exerciſing of their Power. The other is the good and benefit of thoſe whom God has ſet 'em over. Which rule you have enjoyned in the 15. Chapter to the <hi>Romans,</hi> the 1. and 2. Verſes. Which two Rules have ends very differing, though conſiſt<g ref="char:EOLhyphen"/>ing well enough; for the former ſeems to refer <hi>di<g ref="char:EOLhyphen"/>rectly</hi>
+               <pb n="33" facs="tcp:51135:20"/>
+and immediately to <hi>God</hi> and his honor, as the latter does to the <hi>Church</hi> and her benefit. Now as 'tis moſt evident that <hi>God Almighty</hi> took in both theſe under the <hi>Jewiſh Church,</hi> appointing ſuch Ce<g ref="char:EOLhyphen"/>remonies, as might <hi>prefigure</hi> the excellencies of our Redeemer, and ſignifie the graces of <hi>Sanctification:</hi> So likewiſe, as appears by their multitude and <hi>riches,</hi> he therein <hi>preſerv'd</hi> and <hi>imply'd</hi> that decency which is requir'd in all Religion.</p>
+            <p>But becauſe this way was ſubject to <hi>errors</hi> and miſtakes, <hi>God Almighty</hi> has not left us any longer to be govern'd by ſuch <hi>meaſures</hi> as ſhadows and <hi>intima<g ref="char:EOLhyphen"/>tions;</hi> but he has plainly declar'd, not only his acce<g ref="char:EOLhyphen"/>ptance and allowance <hi>hereof,</hi> but his will and plea<g ref="char:EOLhyphen"/>ſure to have <hi>it ſo,</hi> by paſſing it into a direct <hi>Law.</hi> So that to contend here about <hi>in theſi,</hi> whether <hi>God</hi> ought to be worſhip'd decently and in <hi>order,</hi> is neither <hi>more</hi> nor <hi>leſs,</hi> than to controvert the Juriſdiction of <hi>Heaven,</hi> and the authority of the <hi>Bible.</hi>
+            </p>
+            <p>
+               <q>The only difficulty therefore muſt be touching the particular manner of expreſſing our decency, of which certainly <hi>Reaſon, Cuſtom,</hi> and the <hi>determi<g ref="char:EOLhyphen"/>nations</hi> of <hi>Authority,</hi> muſt be conſtituted the fitteſt and moſt proper <hi>Judges,</hi> and not the petulant fan<g ref="char:EOLhyphen"/>cy of ſuch as are diſpos'd to <hi>wrangle;</hi> without which we do by an inevitable neceſſity, render the Rule <hi>unpracticable;</hi> for, if either there be no <hi>Judg</hi> in ſuch caſes, or (which comes all to one) if every <hi>body</hi> be permitted to be their own <hi>judges,</hi> 'tis im<g ref="char:EOLhyphen"/>poſſible to conſerve decency or order.</q>
+            </p>
+            <p>And look whatever inconveniencies may ſeeming<g ref="char:EOLhyphen"/>ly ariſe from this <hi>aſſertion</hi> of ours, I am very <hi>ſure</hi> there's none that's comparable to that <hi>diſorder,</hi> and
+<pb n="34" facs="tcp:51135:21"/>
+confuſion, that would infallibly <hi>enſue,</hi> and attend the want hereof. And we ſoon ſaw the effects of ſuch a <hi>Toleration;</hi> for every body to do what ſeem'd right in their own <hi>eyes.</hi> For when men came to be govern'd by their own <hi>Enthuſiaſms, Good Lord!</hi> what a <hi>Hotch<g ref="char:EOLhyphen"/>poch</hi> had men made of <hi>Religion.</hi> And this, no doubt would have been the conſequence of <hi>it,</hi> if that ſtate of affairs had continued much longer, we ſhould have had ſo <hi>many,</hi> till at length we had had no <hi>Reli<g ref="char:EOLhyphen"/>gion, name,</hi> nor <hi>thing.</hi>
+            </p>
+            <p>
+               <q>
+                  <hi>This miſchief</hi> we did ſee in that time it did laſt, they reduc'd <hi>Religion</hi> to that paſs, that it became generally diſtaſted; and the witty people of the Nation, became <hi>Atheiſts,</hi> and the inconſiderate turn'd <hi>Papiſts.</hi>
+               </q>
+            </p>
+            <p>All which we ow'd to them who blunted the edg of <hi>Church Cenſures,</hi> and ſtript Religion of her <hi>Orna<g ref="char:EOLhyphen"/>ments</hi> and <hi>Ceremonies.</hi> And theſe <hi>Modern Reformers</hi> had ſo refin'd Religion, by their <hi>Spiritual Alchymy,</hi> that we had almoſt loſt it. Suffer me to <hi>accommo<g ref="char:EOLhyphen"/>date</hi> what has been ſaid to the vindication of our <hi>Church,</hi> in reference to her <hi>Ceremonious</hi> Inſtitution. The <hi>Ceremonies</hi> that are retained in the <hi>Church of England,</hi> except thoſe of the <hi>Sacraments</hi> which are of our Saviours own appointment; and which he has made of <hi>immutable</hi> neceſſity, are but very <hi>few,</hi> and ſo admit of no pretence of <hi>cavil</hi> upon that account; when by the multitude or intricacy, of the Ceremo<g ref="char:EOLhyphen"/>nies, the ſervice is either <hi>clogg'd,</hi> or <hi>obſcur'd.</hi> Which, where it is, is an <hi>abuſe,</hi> and ought to be reformed, <hi>i. e.</hi> by thoſe to whom of right it does belong, and not by <hi>Schiſm, Faction,</hi> and <hi>Diſobedience.</hi> 
+               <q>For I obſerve that never any Reformation that was managed by
+<pb n="35" facs="tcp:51135:21"/>
+the <hi>populace,</hi> whether in <hi>Church,</hi> or <hi>State,</hi> could poſſibly <hi>begin well,</hi> or did ever <hi>end ſo.</hi>
+               </q>
+            </p>
+            <p>And I account it a <hi>prime</hi> glory of ours, (that what<g ref="char:EOLhyphen"/>ever <hi>tincture</hi> the ſprings might receive under-ground) from the paſſions and <hi>intereſts</hi> of any, it broke out at the <hi>Fountain</hi> of <hi>juſt Authority;</hi> and then it <hi>deſcen<g ref="char:EOLhyphen"/>ded</hi> like the ſtreams of nature, <hi>gentle</hi> and <hi>eaſie,</hi> and not with the noiſe of a <hi>Cataract,</hi> or the violence of an <hi>Inundation:</hi> And for ſo much of it wherein Re<g ref="char:EOLhyphen"/>ligion was immediately concern'd, and was manag'd by the ſubordinate care and <hi>province</hi> of Church-men. (For the matter of the <hi>Revenues,</hi> it belongs not to our preſent enquiry) nor am I concern'd to ſolve the difficulties wherewith it's <hi>preſs'd;</hi> but for the other, 'twas impoſſible for men to have diſcover'd greater <hi>Characters</hi> of prudence and moderation in all thoſe alterations they made both in <hi>Doctrine</hi> and <hi>Diſci<g ref="char:EOLhyphen"/>pline.</hi>
+            </p>
+            <p>It was not the leaſt <hi>inſtance</hi> of their <hi>wiſdom,</hi> the retaining of thoſe Ceremonies they did for the more orderly and decent adminiſtration of holy duties.</p>
+            <p>Thoſe actions of our <hi>Governors</hi> muſt needs be ju<g ref="char:EOLhyphen"/>ſtifiable in a high meaſure, when both thoſe ends, or Rules, which I laid down before, are attended and ſecured; tho either be <hi>ſufficient,</hi> if the other be not manifeſtly <hi>violated:</hi> as namely, if our Rulers think this makes for the decency of <hi>Religious Worſhip,</hi> or ſuch a thing may be expedient for the <hi>peoples infor<g ref="char:EOLhyphen"/>mation,</hi> much more when they both <hi>concur</hi> and are ſignally diſcernable, as moſt certain one or both of them are obvious in all our Ceremonies.</p>
+            <p>The <hi>Surplice,</hi> beſides the comelineſs of the habit, ſpeaks <hi>Innocence</hi> and <hi>Purity.</hi> The <hi>Ring,</hi> beſides the
+<pb n="36" facs="tcp:51135:22"/>
+Ornament it's worn for, ſignifies the perpetuity and endleſneſs of the <hi>Conjugal</hi> Love. The uſe of the <hi>Croſs</hi> is explained by the <hi>Church her ſelf;</hi> and <hi>Kneeling</hi> vindicated from its corruption and <hi>abuſe.</hi>
+            </p>
+            <p>I know ſome make this the pretended ground of their exception, whereby I go about to defend them; namely for their being <hi>ſymbolical</hi> and <hi>ſignificant;</hi> which I look upon, to be a great inſtance of their <hi>folly;</hi> for their <hi>ſignificancy</hi> is one part of their <hi>excellency;</hi> without which the enjoyning of 'em were not, how<g ref="char:EOLhyphen"/>ever not ſo highly juſtifiable.</p>
+            <p>For as in humane Polity, thoſe Laws are unqueſti<g ref="char:EOLhyphen"/>onably the beſt, which are ſtampt with the marks of <hi>Authority,</hi> and of great <hi>uſefulneſs;</hi> ſo no doubt in <hi>Religion,</hi> thoſe are the beſt <hi>Canons</hi> and <hi>Conſtitutions</hi> whereby men are not only contain'd in their <hi>Obedi<g ref="char:EOLhyphen"/>ence,</hi> but inſtructed in their Duty.</p>
+            <p>And though this be not ſo neceſſary, to the con<g ref="char:EOLhyphen"/>ſtitution of any <hi>Law,</hi> as that it ſhould ceaſe to oblige without it (for the <hi>will</hi> of the <hi>Law-giver</hi> is the formal reaſon of our <hi>Obedience</hi>) from which, nothing can ab<g ref="char:EOLhyphen"/>ſolve us, but an apparent contrariety to a <hi>ſuperior will.</hi>
+            </p>
+            <p>I ſay, notwithſtanding the neceſſity of Obedience in thoſe caſes, the ſuperinducing of this, makes our Obedience more rational and <hi>eaſie,</hi> and it makes thoſe <hi>Laws</hi> look more <hi>Divine,</hi> when like thoſe of <hi>Heaven,</hi> they are accommodated to the principles of <hi>Reaſon,</hi> and advancement of our Intereſt. And now from hence it will be no difficult matter, to infer the neceſ<g ref="char:EOLhyphen"/>ſity of our <hi>Conformity</hi> and Obedience to the <hi>Laws</hi> of our <hi>Church;</hi> for beſides, that we are oblig'd by the ſame <hi>Rules</hi> in doing our duty, as they are in <hi>com<g ref="char:EOLhyphen"/>manding;</hi> namely of decency in reference to <hi>Al<g ref="char:EOLhyphen"/>mighty
+<pb facs="tcp:51135:22"/>
+God,</hi> and the promoting of our own good, <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> far as our apprehenſions concur with theirs. There is beſides another obligation incumbing upon us, (as <hi>I before hinted</hi>) viz. that of the Apoſtle in <hi>Heb.</hi> 13.17. <hi>Obey them that have the rule over you, and ſubmit your ſelves,</hi> i. e. <hi>the Epiſcopal Power,</hi> how much more when it is twin'd and <hi>corroborated</hi> with the bands of Civil <hi>Authority.</hi> All which conſidera<g ref="char:EOLhyphen"/>tions, are complicated in our preſent caſe, and ſo con<g ref="char:EOLhyphen"/>clude the ſtronger for our <hi>Obedience.</hi>
+            </p>
+            <p>And therefore altho my apprehenſions were not throughly convinc'd of the <hi>decency</hi> and expedience of theſe things, <hi>I ſtand obliged for all,</hi> unleſs the thing appear very plainly to be <hi>ſinful</hi> and <hi>unlawful</hi> (not on<g ref="char:EOLhyphen"/>ly to command, for ſo a thing may be for want of the other reaſons, and yet be lawfully obey'd for this) but it muſt be ſo in it ſelf, and to you, or elſe <hi>we ſin:</hi> and the reaſon is evident, becauſe <hi>Obedience</hi> to <hi>Authority</hi> is an expreſs <hi>Duty,</hi> and to evacuate that there need to be as plain a <hi>Prohibition,</hi> and not every fidling <hi>ſcruple</hi> and <hi>petit cavil,</hi> that by men who are diſpos'd to wrangle, may be brought againſt any thing whatever.</p>
+            <p>Much leſs may we <hi>cenſure</hi> or <hi>condemn</hi> Authority, upon this account; foraſmuch as we cannot without the greateſt <hi>pride</hi> and <hi>vanity</hi> but confeſs, that the <hi>Governors,</hi> by reaſon of thoſe advantages they have above us, by their <hi>Learning, Leiſure, Station,</hi> and ſpecial <hi>aſſiſtance of God,</hi> muſt needs ſee and <hi>know</hi> more than we <hi>do</hi> or <hi>can:</hi> And if we believe this (and if we do not we muſt be <hi>intolerably</hi> impudent) where's our <hi>Charity,</hi> if we reproach them with <hi>tyrannical</hi> and un<g ref="char:EOLhyphen"/>reaſonable <hi>impoſitions?</hi>
+            </p>
+            <p>
+               <pb facs="tcp:51135:23"/>
+               <q>The plain truth is, <hi>Rulers</hi> are to govern by their own <hi>conſciences,</hi> and not <hi>yours</hi> or <hi>mine.</hi> And there<g ref="char:EOLhyphen"/>fore if your Conſcience be <hi>oppoſite</hi> to his, ('tis your own Rule, and the whole ſtrength of the objection) he muſt follow his <hi>Conſcience.</hi> Which beſides the neceſſity of maintaining the reverence and autho<g ref="char:EOLhyphen"/>rity of <hi>Laws,</hi> would be well conſidered by ſuch as are in Power, whether it does not reflect a guilt upon them if they don't do it; whatever they ſay, or ſuffer, who are the occaſion on't.</q>
+            </p>
+            <p>
+               <q>Mean while, how little juſt ground is there, for thoſe ſo wide and contrary imputations that are falſly charg'd upon the Church of <hi>England:</hi> Of <hi>Schiſm</hi> from the <hi>Papiſts,</hi> and of <hi>Popery</hi> from the <hi>Phanaticks?</hi>
+               </q>
+            </p>
+            <p>We had in vain complained of the <hi>Romiſh Superſti<g ref="char:EOLhyphen"/>tions,</hi> and long <hi>groan'd</hi> under the <hi>Yoke</hi> of its <hi>Tyranny,</hi> but never dream'd of a <hi>Separation,</hi> till the terms of their Communion grew to that height, that no Sal<g ref="char:EOLhyphen"/>vation could be expected therein, or but very <hi>diffi<g ref="char:EOLhyphen"/>cultly;</hi> and 'twas but time to ſeek a remedy, when the Diſeaſe was become almoſt <hi>incurable.</hi> Altho I muſt needs <hi>aſſert,</hi> there wanted no ſuch reaſon to have juſtified our <hi>Reformation,</hi> which might very lawfully have been effected, by the Right and Power of a National <hi>Church diſtinct</hi> and independing upon a Forein <hi>Juriſdiction:</hi> but this made our proceedings <hi>fair</hi> and <hi>candid,</hi> as well as <hi>juſt.</hi>
+            </p>
+            <p>
+               <q>As to the charge of <hi>Popery</hi> on the other ſide, 'tis the <hi>ſillieſt,</hi> but moſt <hi>malicious</hi> ſlander that ever was thrown upon any Order of <hi>men.</hi> We know they don't uſe to heed what ground <hi>Calumnies</hi> have, ſo they will but <hi>ſerve their turn.</hi> Which becauſe 'tis
+<pb facs="tcp:51135:23"/>
+very certain the <hi>grandees</hi> of them do not <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <hi>themſelves,</hi> it can have no other deſign but <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. They know and are aſſur'd, what by that <hi>averſa<g ref="char:EOLunhyphen"/>tion</hi> in the Kingdom againſt <hi>Popery,</hi> and by the <hi>in<g ref="char:EOLhyphen"/>conſiderable</hi> numbers of Papiſts <hi>comparatively,</hi> for I wiſh with my ſoul their <hi>numbers</hi> were not ſo <hi>great;</hi> for if ever the Government be <hi>ſubverted</hi> (which God forbid) the Power muſt neceſſarily devolve among their <hi>party:</hi> And there is no way to do this but by rendering thoſe of the <hi>Church of England</hi> odious to the <hi>Mobile;</hi> and there is no way to do that ſo <hi>effectually,</hi> as to call them <hi>Papiſts.</hi> And he that does not ſee this, has more credit for an evi<g ref="char:EOLhyphen"/>dence that may poſſibly deceive, than for a demon<g ref="char:EOLhyphen"/>ſtration that can not.</q>
+            </p>
+            <p>
+               <hi>Well,</hi> and what are the pretences of this <hi>Clamor?</hi> ſome of them belong to the being of the <hi>Church</hi> as the diſtinctions of <hi>Orders:</hi> Some to its flouriſhing and <hi>well-being,</hi> as the <hi>honorary</hi> additions of <hi>Power</hi> and maintenance; ſome to the <hi>places</hi> of Divine <hi>Wor<g ref="char:EOLhyphen"/>ſhip,</hi> their relative <hi>holineſs,</hi> and appropriate <hi>diſcrimi<g ref="char:EOLhyphen"/>nations,</hi> and ſome to the <hi>modes</hi> of <hi>Worſhip,</hi> as <hi>habits</hi> and <hi>geſtures.</hi> And is it enough to make a man a <hi>Papiſt</hi> for believing a <hi>Biſhop</hi> to be above a <hi>Prieſt,</hi> or aſſert the <hi>Biſhops Peerage,</hi> or the ſacredneſs of <hi>Churches,</hi> and decency of a <hi>Surplice:</hi> and is that all the reaſon too, becauſe we obſerve theſe things among them. <hi>Jeſu!</hi> What do men pretend to? by the ſame reaſon I would prove a <hi>Turk</hi> a <hi>Proteſtant,</hi> and a <hi>Proteſtant</hi> a <hi>Devil.</hi>
+            </p>
+            <p>
+               <q>The truth is, they better deſerve to ſuffer under the reproach themſelves; for beſides their agreeing with the Church of <hi>Rome</hi> in thoſe very Doctrines,
+<pb facs="tcp:51135:24"/>
+wherein we do proteſt againſt her, and them, as denying the <hi>Kings Supremacy, Excommunicating, Depoſing</hi> and <hi>Murdering</hi> of <hi>Princes, founding Do<g ref="char:EOLhyphen"/>minion in Grace,</hi> and the like: beſides this, let any body judg whether they do not ſerve the Church of <hi>Rome</hi> hereby? For if when I look below the Church of <hi>England,</hi> I ſee nothing but <hi>diſtraction</hi> and <hi>confuſion,</hi> no <hi>Prieſt,</hi> no <hi>Sacrament,</hi> whereof a man may very well doubt; and if there be no more hurt in Po<g ref="char:EOLhyphen"/>pery than Lawn <hi>Sleeves,</hi> a <hi>Croſs</hi> or a <hi>Surplice,</hi> who! that lov'd his ſoul, would not? who <hi>ought</hi> not to be a Papiſt?</q>
+            </p>
+            <p>Thanks be <hi>to God,</hi> we profeſs a <hi>Religion</hi> infinitely better than either of <hi>them,</hi> however envied and perſe<g ref="char:EOLhyphen"/>cuted <hi>by both.</hi>
+            </p>
+            <q>
+               <p>A <hi>Religion</hi> I would chooſe as a <hi>man,</hi> 'tis ſo <hi>pious</hi> and rational: A <hi>Religion</hi> I would chooſe as a <hi>Belie<g ref="char:EOLhyphen"/>ver,</hi> ſo ſafely does it direct men to <hi>Heaven:</hi> A <hi>Re<g ref="char:EOLhyphen"/>ligion</hi> I would chooſe as a <hi>Prince</hi> or <hi>Magiſtrate,</hi> as the beſt inſtrument of Government in the <hi>world,</hi> that ties mens ſouls to obedience. And which only, by its Loyalty would make a <hi>Princes Guards uſeleſs.</hi>
+               </p>
+               <p>This is the Religion we profeſs, I hope to <hi>God</hi> we ſhall all continue to <hi>live and die in it,</hi> and if we would but <hi>live up to it,</hi> is able to make us good <hi>Governors,</hi> good <hi>Subjects,</hi> good <hi>Chriſtians,</hi> and in the end <hi>glorious Saints.</hi>
+               </p>
+            </q>
+            <p>Which God make us for Jeſus ſake, to whom with the Father and the Holy Ghoſt be Glory and Ho<g ref="char:EOLhyphen"/>nor. <hi>Amen.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:51135:24"/>
+         </div>
+      </body>
+   </text>
+</TEI>
